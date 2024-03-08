@@ -1,0 +1,2 @@
+https://italika.ru/css/jquery.ui.css?v=2.44
+https://italika.ru/css/style.css?v=2.44

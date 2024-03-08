@@ -1,0 +1,8 @@
+https://italika.ru/assets/61ccc220/jquery.min.js
+https://italika.ru/assets/61ccc220/jui/js/jquery-ui.min.js
+https://italika.ru/js/jquery.hints.js?v=2.44
+https://italika.ru/js/jquery.dropshadow.js?v=2.44
+https://italika.ru/js/fn.js?v=2.44
+https://italika.ru/js/main.js?v=2.44
+https://italika.ru/js/slider.js?v=2.44
+https://italika.ru/js/jquery.jcarousel.min.js?v=2.44
