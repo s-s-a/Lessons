@@ -20,10 +20,13 @@ class NonFiction(Book):
         print(f'"{self.title}" - книга в стиле нон фикшн, автор - {self.author}')
 
 class Poetry(Book):
-    pass
+    def get_summary(self):
+        raise NotImplementedError
+
 
 fiction_book = Fiction("Террор", "Дэн Симмонс")
 nonfiction_book = NonFiction("Как писать книги", "Стивен Кинг")
 fiction_book.get_summary()
 nonfiction_book.get_summary()
 poetry_book = Poetry("Стихотворения", "Борис Пастернак")
+poetry_book.get_summary()

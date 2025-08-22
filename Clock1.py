@@ -1,6 +1,6 @@
-from PySide2 import QtCore, QtWidgets
-from PySide2.QtCore import QTime, QTimer
-from PySide2.QtGui import QFont
+from PySide6 import QtCore, QtWidgets
+from PySide6.QtCore import QTime, QTimer
+from PySide6.QtGui import QFont
 
 class Ui_MainWindow(QtWidgets.QMainWindow):
 
@@ -47,4 +47,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = Ui_MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

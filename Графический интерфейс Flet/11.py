@@ -1,5 +1,6 @@
 import flet as ft
 
+
 def main(page: ft.Page):
     page.title = "Drag and Drop example"
 
@@ -42,5 +43,6 @@ def main(page: ft.Page):
             ]
         )
     )
+
 
 ft.app(target=main, view=ft.WEB_BROWSER)

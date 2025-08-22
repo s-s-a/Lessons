@@ -83,7 +83,7 @@ def total():
         msg = QMessageBox()
         msg.setWindowTitle("Error!")
         msg.setText(CHECK_YOUR_SAMPLE)
-        msg.exec_()
+        msg.exec()
 
 
 def koren():
@@ -93,7 +93,7 @@ def koren():
         msg = QMessageBox()
         msg.setWindowTitle("Error!")
         msg.setText(CHECK_YOUR_SAMPLE)
-        msg.exec_()
+        msg.exec()
 
 
 def point():
@@ -133,10 +133,10 @@ num_eight.clicked.connect(click_digit_or_operator('8'))
 num_nine.clicked.connect(click_digit_or_operator('9'))
 num_zero.clicked.connect(click_digit_or_operator('0'))
 
-multiplate.clicked.connect(clck_multiplate)
-divide.clicked.connect(clck_divide)
-plus.clicked.connect(clck_plus)
-minus.clicked.connect(clck_minus)
+multiplate.clicked.connect(click_digit_or_operator('*'))
+divide.clicked.connect(click_digit_or_operator('/'))
+plus.clicked.connect(click_digit_or_operator('+'))
+minus.clicked.connect(click_digit_or_operator('-'))
 
 summa.clicked.connect(total)
 delete_all.clicked.connect(delete)

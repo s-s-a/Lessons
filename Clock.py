@@ -1,6 +1,6 @@
-from PySide2 import QtCore, QtWidgets
-from PySide2.QtCore import QTime, QTimer
-from PySide2.QtGui import QFont
+from PySide6 import QtCore, QtWidgets
+from PySide6.QtCore import QTime, QTimer
+from PySide6.QtGui import QFont
 
 class Ui_MainWindow(QtWidgets.QMainWindow):
 
@@ -8,7 +8,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
         super(Ui_MainWindow, self).__init__()
         self.setupUi(self)
         # Изменение шрифта
-        self.label.setFont(QFont("Arial", 20))
+        self.label.setFont(QFont("JetBrains Mono", 48))
         # Создание переменной timer в которую помещается вызов функции таймер (QTimer)
         self.timer = QTimer()
         # Привязка метода перезагрузки к функции self.tm
@@ -47,4 +47,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = Ui_MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

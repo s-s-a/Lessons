@@ -8,8 +8,13 @@ from pprint import pprint
 import ffmpeg
 from PIL import Image, ExifTags
 
+NIKON_TRANSFER_PATH = r"c:\Users\sssss\Images\Nikon Transfer 2"
 
 def image_metadata(path_f):
+    """
+
+    :param path_f:
+    """
     img = Image.open(path_f)
     info_dict = {
             "Имя файла": os.path.split(path_f)[1],
@@ -30,7 +35,10 @@ def image_metadata(path_f):
                 print(f'{info:27}: lat {exif[info][2]} {exif[info][1]} - long {exif[info][4]} {exif[info][3]}')
             else:
                 if isinstance(exif[info], bytes):
+                    try:
                     info_d = exif[info].decode()
+                    except UnicodeDecodeError:
+                        info_d = exif[info]
                     print(f'{info:25}: {info_d}')
                 else:
                     print(f'{info:25}: {exif[info]}')
@@ -50,7 +58,9 @@ def vid_aud_matadata(patn_f):
 
 
 if __name__ == "__main__":
-    path_file = input('[~] Введите путь к файлу: ')
+    # path_file = input('[~] Введите путь к файлу: ').lower()
+    files = [NIKON_TRANSFER_PATH+"\\"+x.lower() for x in os.listdir(NIKON_TRANSFER_PATH) if x.lower().endswith(".jpg")]
+    for path_file in files:
     if not os.path.exists(path_file):
         print('[-] Файла не существует')
     else:

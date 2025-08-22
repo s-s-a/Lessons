@@ -18,4 +18,5 @@ def main(page: ft.Page):
     )
     page.add(color_dropdown, submit_btn, output_text)
 
+
 ft.app(target=main, view=ft.WEB_BROWSER)

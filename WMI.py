@@ -1,15 +1,15 @@
 import wmi
 
-# Создаем объект WMI
+# РЎРѕР·РґР°РµРј РѕР±СЉРµРєС‚ WMI
 c = wmi.WMI()
 
-# Получаем информацию о системе
+# РџРѕР»СѓС‡Р°РµРј РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРёСЃС‚РµРјРµ
 system_info = c.Win32_ComputerSystem()[0]
 
-# Выводим полученные данные
-print(f"Производитель: {system_info.Manufacturer}")
-print(f"Модель: {system_info.Model}")
-print(f"Имя компьютера: {system_info.Name}")
-print(f"Количество процессоров: {system_info.NumberOfProcessors}")
-print(f"Тип системы: {system_info.SystemType}")
-print(f"Физическая память: {system_info.TotalPhysicalMemory}")
+# Р’С‹РІРѕРґРёРј РїРѕР»СѓС‡РµРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ
+print(f"РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ: {system_info.Manufacturer}")
+print(f"РњРѕРґРµР»СЊ: {system_info.Model}")
+print(f"РРјСЏ РєРѕРјРїСЊСЋС‚РµСЂР°: {system_info.Name}")
+print(f"РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ: {system_info.NumberOfProcessors}")
+print(f"РўРёРї СЃРёСЃС‚РµРјС‹: {system_info.SystemType}")
+print(f"Р¤РёР·РёС‡РµСЃРєР°СЏ РїР°РјСЏС‚СЊ: {int(system_info.TotalPhysicalMemory) // 1024 // 1024 // 1024} Р“Р‘")

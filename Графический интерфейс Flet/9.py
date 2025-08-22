@@ -1,5 +1,6 @@
 import flet as ft
 
+
 # Темы: https://flet.dev/docs/guides/python/colors
 
 def main(page):
@@ -19,5 +20,6 @@ def main(page):
 
     new_task = ft.TextField(hint_text="Whats needs to be done?", width=300)
     page.add(ft.Row([new_task, ft.ElevatedButton("Add", on_click=add_clicked)]))
+
 
 ft.app(target=main, view=ft.WEB_BROWSER)

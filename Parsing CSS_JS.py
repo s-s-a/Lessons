@@ -27,8 +27,8 @@ for css in soup.find_all('link'):
         css_url = urljoin(url, css.attrs.get('href'))
         css_files.append(css_url)
 
-print('Общее количество файлов скриптов на странице:', len(script_files))
-print('Общее количество css-файлов на странице:', len(css_files))
+print(f'Общее количество файлов скриптов на странице: {len(script_files)}')
+print(f'Общее количество css-файлов на странице: {len(css_files)}')
 
 with open('javascript_files.txt', 'w') as f:
     for js_file in script_files:

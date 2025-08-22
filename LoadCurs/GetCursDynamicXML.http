@@ -1,0 +1,20 @@
+
+
+POST /DailyInfoWebServ/DailyInfo.asmx HTTP/1.1
+Host: www.cbr.ru
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 478
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <GetCursDynamicXML xmlns="http://web.cbr.ru/">
+      <FromDate>2024-06-28T00:00:00</FromDate>
+      <ToDate>2024-07-03T00:00:00</ToDate>
+      <ValutaCode>R01239</ValutaCode>
+    </GetCursDynamicXML>
+  </soap12:Body>
+</soap12:Envelope>

@@ -2,13 +2,15 @@
 # https://habr.com/ru/company/skillfactory/blog/551002/
 
 from exif import Image
+import reverse_geocoder as rg
+import pycountry
 
 
-def format_dms_coordinates(coordinates)->str:
+def format_dms_coordinates(coordinates) -> str:
     return f"{coordinates[0]}° {coordinates[1]}\' {coordinates[2]}\""
 
 
-def dms_coordinates_to_dd_coordinates(coordinates, coordinates_ref)->str:
+def dms_coordinates_to_dd_coordinates(coordinates, coordinates_ref) -> str:
     decimal_degrees = coordinates[0] + \
                       coordinates[1] / 60 + \
                       coordinates[2] / 3600
@@ -28,8 +30,8 @@ def draw_map_for_location(latitude, latitude_ref, longitude, longitude_ref):
     webbrowser.open_new_tab(url)
 
 
-def degrees_to_direction(degrees)->str:
-    COMPASS_DIRECTIONS = [
+def degrees_to_direction(degrees) -> str:
+    compass_directions = [
         "N",
         "NNE",
         "NE",
@@ -48,12 +50,12 @@ def degrees_to_direction(degrees)->str:
         "NNW"
     ]
 
-    compass_directions_count = len(COMPASS_DIRECTIONS)
+    compass_directions_count = len(compass_directions)
     compass_direction_arc = 360 / compass_directions_count
-    return COMPASS_DIRECTIONS[int(degrees / compass_direction_arc) % compass_directions_count]
+    return compass_directions[int(degrees / compass_direction_arc) % compass_directions_count]
 
 
-def format_direction_ref(direction_ref)->str:
+def format_direction_ref(direction_ref) -> str:
     direction_ref_text = "(true or magnetic north not specified)"
     if direction_ref == "T":
         direction_ref_text = "True north"
@@ -62,7 +64,7 @@ def format_direction_ref(direction_ref)->str:
     return direction_ref_text
 
 
-def format_altitude(altitude, altitude_ref)->str:
+def format_altitude(altitude, altitude_ref) -> str:
     altitude_ref_text = "(above or below sea level not specified)"
     if altitude_ref == 0:
         altitude_ref_text = "above sea level"
@@ -71,7 +73,7 @@ def format_altitude(altitude, altitude_ref)->str:
     return f"{altitude} meters {altitude_ref_text}"
 
 
-def format_speed_ref(speed_ref)->str:
+def format_speed_ref(speed_ref) -> str:
     speed_ref_text = "(speed units not specified)"
     if speed_ref == "K":
         speed_ref_text = "km/h"
@@ -159,9 +161,6 @@ for index, image in enumerate(images):
                           image.gps_longitude,
                           image.gps_longitude_ref)
 
-import reverse_geocoder as rg
-import pycountry
-
 for index, image in enumerate(images):
     print(f"Location info - Image {index}")
     print("-----------------------")
@@ -182,7 +181,7 @@ for index, image in enumerate(images):
 # Высота над уровнем моря
 for index, image in enumerate(images):
     print(f"Altitude - Image {index}")
-    print( "------------------")
+    print("------------------")
     print(f"{format_altitude(image.gps_altitude, image.gps_altitude_ref)}\n")
 
 for index, image in enumerate(images):
@@ -240,8 +239,6 @@ del hotel_image.gps_longitude_ref
 
 hotel_image.delete_all()
 
-
 # Запись с измененным содержимым
 with open('./images/hotel updated.jpg', 'wb') as updated_hotel_file:
     updated_hotel_file.write(hotel_image.get_file())
-
