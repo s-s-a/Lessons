@@ -164,6 +164,14 @@
         "documentation": {}
     },
     {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
@@ -4126,6 +4134,15 @@
         "documentation": {}
     },
     {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -4180,6 +4197,24 @@
         "description": "urllib.parse",
         "isExtraImport": true,
         "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
         "documentation": {}
     },
     {
@@ -4348,6 +4383,22 @@
         "importPath": "time.",
         "description": "time.",
         "detail": "time.",
+        "documentation": {}
+    },
+    {
+        "label": "Observer",
+        "importPath": "watchdog.observers",
+        "description": "watchdog.observers",
+        "isExtraImport": true,
+        "detail": "watchdog.observers",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemEventHandler",
+        "importPath": "watchdog.events",
+        "description": "watchdog.events",
+        "isExtraImport": true,
+        "detail": "watchdog.events",
         "documentation": {}
     },
     {
@@ -9501,6 +9552,15 @@
         "documentation": {}
     },
     {
+        "label": "find_duplicate_images",
+        "kind": 2,
+        "importPath": "find_dupliccate_images",
+        "description": "find_dupliccate_images",
+        "peekOfCode": "def find_duplicate_images(folder):\n    hashes = {}  # Словарь для хранения хэшей изображений и соответствующих им имен файлов\n    for filename in os.listdir(folder):\n        # Проверяем, что файл имеет расширение изображения\n        if filename.endswith(('.png', '.jpg', '.jpeg')):\n            path = os.path.join(folder, filename)\n            hash_val = imagehash.average_hash(Image.open(path))  # Создаем хэш изображения\n            if hash_val in hashes:  # Если такой хэш уже встречался\n                print(f\"Дубликат: {filename} и {hashes[hash_val]}\")  # Выводим найденный дубликат\n            else:",
+        "detail": "find_dupliccate_images",
+        "documentation": {}
+    },
+    {
         "label": "TOKEN",
         "kind": 5,
         "importPath": "find_weather_bot",
@@ -9525,6 +9585,24 @@
         "description": "find_weather_bot",
         "peekOfCode": "dp = Dispatcher()\n@dp.message(Command('start'))\nasync def start_command(message: types.Message):\n    await message.answer('Привет! Чтобы получить погоду, пришлите название города.')\n@dp.message(F.text)\nasync def get_weather(message: types.Message):\n    city = message.text\n    try:\n        url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&lang=ru&appid=79d1ca96933b0328e1c7e3e7a26cb347'\n        weather_data = requests.get(url).json()",
         "detail": "find_weather_bot",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "foto_from_camera",
+        "description": "foto_from_camera",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\n# Считываем один кадр с камеры. 'ret' - булево значение (True, если кадр успешно считан),\n# 'frame' - сам кадр (изображение)\nret, frame = cap.read()\nif ret: # Проверяем, был ли успешно считан кадр\n    # Сохраняем полученный кадр \"snapshot.png\" в текущей директории\n    cv2.imwrite(\"snapshot.png\", frame)\n    print(\"📷 Снимок сохранён как snapshot.png\")\n# Освобождаем ресурсы, связанные с объектом VideoCapture (закрываем камеру)\ncap.release()",
+        "detail": "foto_from_camera",
+        "documentation": {}
+    },
+    {
+        "label": "get_chrome_tabs",
+        "kind": 2,
+        "importPath": "get_chrome_tabs",
+        "description": "get_chrome_tabs",
+        "peekOfCode": "def get_chrome_tabs(debug_port=9222):\n    \"\"\"\n    Получает и выводит список открытых вкладок Chrome через удаленную отладку.\n    Args:\n        debug_port (int): Порт, на котором включена удаленная отладка.\n                          По умолчанию используется порт 9222.\n    \"\"\"\n    try:\n        response = requests.get(f\"http://localhost:{debug_port}/json\")\n        tabs = response.json()",
+        "detail": "get_chrome_tabs",
         "documentation": {}
     },
     {
@@ -9903,6 +9981,15 @@
         "description": "Parsing CSS_JS",
         "peekOfCode": "css_files = []\nfor css in soup.find_all('link'):\n    if css.attrs.get('href'):\n        css_url = urljoin(url, css.attrs.get('href'))\n        css_files.append(css_url)\nprint(f'Общее количество файлов скриптов на странице: {len(script_files)}')\nprint(f'Общее количество css-файлов на странице: {len(css_files)}')\nwith open('javascript_files.txt', 'w') as f:\n    for js_file in script_files:\n        print(js_file, file=f)",
         "detail": "Parsing CSS_JS",
+        "documentation": {}
+    },
+    {
+        "label": "AMBIG",
+        "kind": 5,
+        "importPath": "password_generator",
+        "description": "password_generator",
+        "peekOfCode": "AMBIG = set('O0Il1') # Определяем набор символов, которые могут выглядеть похожими (амбивалентные символы).\nif __name__ == \"__main__\":\n    ap = argparse.ArgumentParser()\n    ap.add_argument('-l', '--length', type=int, default=16,  # Указание длины пароля.\n                    help='длина пароля (по умолчанию: 16)')\n    ap.add_argument('-d', '--digits', action='store_true',  # Включать ли цифр в пароль.\n                    help='включить цифры в пароль')\n    ap.add_argument('-s', '--symbols', action='store_true',  # Включать ЛИ символов в пароль.\n                    help='включить специальные символы в пароль')\n    ap.add_argument('--no-ambig', action='store_true',",
+        "detail": "password_generator",
         "documentation": {}
     },
     {
@@ -10542,6 +10629,15 @@
         "description": "Scraping",
         "peekOfCode": "def main():\n    # Настройка логирования\n    logging.basicConfig(\n        level=logging.INFO,\n        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'\n    )\n    # Конфигурация Scrapy\n    settings = get_project_settings()\n    settings.update({\n        'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',",
         "detail": "Scraping",
+        "documentation": {}
+    },
+    {
+        "label": "search_string_in_files",
+        "kind": 2,
+        "importPath": "search_string_in_files",
+        "description": "search_string_in_files",
+        "peekOfCode": "def search_string_in_files(folder_path, search_string):\n    # Проходимся по всем файлам и папкам, начиная с указанного пути\n    for root, _, files in os.walk(folder_path):\n        # Итерируемся по каждому файлу в текущей папке\n        for file_name in files:\n            file_path = os.path.join(root, file_name)\n            try:\n                # Открываем файл для чтения в режиме \"r\" с кодировкой \"utf-8\"\n                with open(file_path, \"r\", encoding=\"utf-8\", errors=\"ignore\") as file:\n                    # Итерируемся по каждой строке в файле, начиная нумерацию с 1",
+        "detail": "search_string_in_files",
         "documentation": {}
     },
     {
@@ -11523,6 +11619,24 @@
         "description": "Tricks",
         "peekOfCode": "obj = CustomClass()\nprint(obj.x)  # 5\nprint(obj.say_hi())  # Hello!\n# %% [markdown]\n# По сути, метаклассы позволяют настраивать и изменять эти аргументы в процессе создания классов. Например, вот метакласс, удваивающий каждый атрибут integer для класса:\n# %% [python]\nclass DoubleAttrMeta(type):\n    def __new__(cls, name, bases, namespace):\n        new_namespace = {}\n        for key, val in namespace.items():",
         "detail": "Tricks",
+        "documentation": {}
+    },
+    {
+        "label": "MyEventHandler",
+        "kind": 6,
+        "importPath": "watchdog",
+        "description": "watchdog",
+        "peekOfCode": "class MyEventHandler(FileSystemEventHandler):\n    def on_any_event(self, event):\n        \"\"\"Логирует любое событие файловой системы.\"\"\"\n        if event.is_directory:\n            event_type = \"Каталог\"\n        else:\n            event_type = \"Файл\"\n        if event.event_type == 'created':\n            print(f\"СОЗДАН: {event_type} {event.src_path}\")\n        elif event.event_type == 'deleted':",
+        "detail": "watchdog",
+        "documentation": {}
+    },
+    {
+        "label": "start_watching",
+        "kind": 2,
+        "importPath": "watchdog",
+        "description": "watchdog",
+        "peekOfCode": "def start_watching(path):\n    event_handler = MyEventHandler()\n    observer = Observer()\n    observer.schedule(event_handler, path, recursive=True)\n    observer.start()\n    print(f\"Мониторинг папки: {path}. Нажмите Ctrl+C для остановки.\")\n    try:\n        while True:\n            time.sleep(1)\n    except KeyboardInterrupt:",
+        "detail": "watchdog",
         "documentation": {}
     },
     {
