@@ -1,6 +1,8 @@
 '''Калькулятор на TKinter'''
 
-from tkinter import *
+from tkinter import END, Frame, NSEW, Tk, Button, Entry,BOTH
+
+expression = ''
 
 
 def btn_click(item):
@@ -59,4 +61,3 @@ for row in range(4):
             (row=row + 2, column=col, sticky=NSEW, padx=1, pady=1)
 
 root.mainloop()
-

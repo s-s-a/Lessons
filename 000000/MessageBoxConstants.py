@@ -1,0 +1,35 @@
+#  MessageBox Constant Definitions
+import PySide6.QtWidgets as QtGui
+
+OK_ONLY = 0
+OK_CANCEL = 1
+ABORT_RETRY_IGNORE = 2
+YES_NO_CANCEL = 3
+YES_NO = 4
+RETRY_CANCEL = 5
+
+NOICON = 0
+STOPSIGN = 16
+QUESTION = 32
+EXCLAMATION = 48
+INFORMATION = 64
+
+FIRSTBUTTON = 0
+SECONDBUTTON = 256
+THIRDBUTTON = 512
+
+OK = QtGui.QMessageBox.Ok
+CANCEL = QtGui.QMessageBox.Cancel
+ABORT = QtGui.QMessageBox.Abort
+RETRY = QtGui.QMessageBox.Retry
+IGNORE = QtGui.QMessageBox.Ignore
+YES = QtGui.QMessageBox.Yes
+NO = QtGui.QMessageBox.No
+
+RETURN_OK = 1
+RETURN_CANCEL = 2
+RETURN_ABORT = 3
+RETURN_RETRY = 4
+RETURN_IGNORE = 5
+RETURN_YES = 6
+RETURN_NO = 7

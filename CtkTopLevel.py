@@ -1,3 +1,5 @@
+from tkinter.constants import NW, LEFT
+
 import customtkinter as ctk
 from PIL import ImageTk
 

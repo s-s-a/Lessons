@@ -1,4 +1,4 @@
-from PySide2 import QtCore, QtWidgets
+from PySide6 import QtCore, QtWidgets
 
 class Ui_MainWindow(QtWidgets.QMainWindow):
 
@@ -99,4 +99,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = Ui_MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

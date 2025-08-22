@@ -1,9 +1,9 @@
 """Браузер на Qt"""
 
 import sys
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtWebEngineWidgets import *
+from PySide6.QtCore import *
+from PySide6.QtWidgets import *
+from PySide6.QtWebEngineWidgets import *
 
 
 class MainWindow(QMainWindow):
@@ -55,4 +55,4 @@ class MainWindow(QMainWindow):
 
 app = QApplication(sys.argv)
 window = MainWindow()
-app.exec_()
+app.exec()

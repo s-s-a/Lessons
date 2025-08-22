@@ -12,4 +12,5 @@ def main(page):
     todo_check = ft.Checkbox(label="ToDo: Learn how to use ski", value=False, on_change=checkbox_changed)
     page.add(todo_check, output_text)
 
+
 ft.app(target=main, view=ft.WEB_BROWSER)

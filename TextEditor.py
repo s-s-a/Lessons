@@ -1,7 +1,7 @@
 """Текстовый редактор на Qt"""
 
-from PySide2 import QtCore, QtGui, QtWidgets
-from PySide2.QtWidgets import QFileDialog, QMessageBox
+from PySide6 import QtCore, QtGui, QtWidgets
+from PySide6.QtWidgets import QFileDialog, QMessageBox
 
 class Ui_MainWindow(QtWidgets.QMainWindow):
 
@@ -94,4 +94,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = Ui_MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

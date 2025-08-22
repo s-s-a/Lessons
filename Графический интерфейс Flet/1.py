@@ -1,5 +1,6 @@
 import flet as ft
 
+
 # pip install flet
 
 def main(page: ft.Page):
@@ -26,6 +27,7 @@ def main(page: ft.Page):
             alignment=ft.MainAxisAlignment.CENTER,
         )
     )
+
 
 # ft.app(target=main)  # Вывести в десктопе
 ft.app(target=main, view=ft.WEB_BROWSER)  # Вывести в вебе

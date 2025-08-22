@@ -19,5 +19,5 @@ def implementation_of_normal_boys():
 
 
 lowqual_implementation()
-print('\n\n')
+print('\n')
 implementation_of_normal_boys()
