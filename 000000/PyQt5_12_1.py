@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+#!c:\Users\Sizov\AppData\Local\Programs\Python\Python37\python
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 # -*- coding: utf-8 -*-
 
 import sys
@@ -395,4 +399,8 @@ class Shape(object):
 if __name__ == '__main__':
     app = QApplication([])
     tetris = Tetris()
+<<<<<<< HEAD
     sys.exit(app.exec())
+=======
+    sys.exit(app.exec_())
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841

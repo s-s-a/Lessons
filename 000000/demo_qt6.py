@@ -1,7 +1,13 @@
 import sys
+<<<<<<< HEAD
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtGui import QIcon
 from PySide6 import QtQuickWidgets, QtCore, QtWidgets #, QtLineEdit, QtPushButton, QtTextEdit, QtVBoxlayout
+=======
+from PySide6.QtWidgets import QApplication
+from PySide6.QtGui import QIcon
+from PySide6 import QtWidgets
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 
 
 class MyApp(QtWidgets.QWidget):

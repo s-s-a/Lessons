@@ -334,6 +334,14 @@
         "documentation": {}
     },
     {
+        "label": "QIcon",
+        "importPath": "PySide6.QtGui",
+        "description": "PySide6.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide6.QtGui",
+        "documentation": {}
+    },
+    {
         "label": "QPainter",
         "importPath": "PySide6.QtGui",
         "description": "PySide6.QtGui",
@@ -627,6 +635,15 @@
         "description": "PySide6.QtQml",
         "isExtraImport": true,
         "detail": "PySide6.QtQml",
+        "documentation": {}
+    },
+    {
+        "label": "PySide6.QtCore",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PySide6.QtCore",
+        "description": "PySide6.QtCore",
+        "detail": "PySide6.QtCore",
         "documentation": {}
     },
     {
@@ -952,6 +969,14 @@
         "documentation": {}
     },
     {
+        "label": "QApplication",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
         "label": "QWidget",
         "importPath": "PySide6.QtWidgets",
         "description": "PySide6.QtWidgets",
@@ -969,6 +994,14 @@
     },
     {
         "label": "QApplication",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QMessageBox",
         "importPath": "PySide6.QtWidgets",
         "description": "PySide6.QtWidgets",
         "isExtraImport": true,
@@ -1209,6 +1242,22 @@
     },
     {
         "label": "QPushButton",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PySide6.QtWidgets",
+        "description": "PySide6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
         "importPath": "PySide6.QtWidgets",
         "description": "PySide6.QtWidgets",
         "isExtraImport": true,
@@ -2320,6 +2369,22 @@
         "documentation": {}
     },
     {
+        "label": "QtWidgets",
+        "importPath": "PySide6",
+        "description": "PySide6",
+        "isExtraImport": true,
+        "detail": "PySide6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PySide6",
+        "description": "PySide6",
+        "isExtraImport": true,
+        "detail": "PySide6",
+        "documentation": {}
+    },
+    {
         "label": "QtCore",
         "importPath": "PySide6",
         "description": "PySide6",
@@ -2538,6 +2603,118 @@
         "documentation": {}
     },
     {
+        "label": "OK",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "CANCEL",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "ABORT",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETRY",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "IGNORE",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "YES",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "NO",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_OK",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_CANCEL",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_ABORT",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_RETRY",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_IGNORE",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_YES",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
+        "label": "RETURN_NO",
+        "importPath": "MessageBoxConstants",
+        "description": "MessageBoxConstants",
+        "isExtraImport": true,
+        "detail": "MessageBoxConstants",
+        "documentation": {}
+    },
+    {
         "label": "YES_NO",
         "importPath": "MessageBoxConstants",
         "description": "MessageBoxConstants",
@@ -2611,6 +2788,30 @@
         "importPath": "pickle",
         "description": "pickle",
         "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
         "documentation": {}
     },
     {
@@ -3335,6 +3536,87 @@
         "description": "CTkMessagebox",
         "isExtraImport": true,
         "detail": "CTkMessagebox",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
         "documentation": {}
     },
     {
@@ -4280,38 +4562,6 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "tqdm",
         "importPath": "tqdm",
         "description": "tqdm",
@@ -4325,6 +4575,15 @@
         "description": "urllib.parse",
         "isExtraImport": true,
         "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "pyphen",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyphen",
+        "description": "pyphen",
+        "detail": "pyphen",
         "documentation": {}
     },
     {
@@ -5220,7 +5479,7 @@
         "kind": 5,
         "importPath": "000000.C4",
         "description": "000000.C4",
-        "peekOfCode": "R = max(R_0 + R_1, R_2_1 + R_2_2)\n# Это - вычисленное контрольное значение\nif R < 0:\n    # Если такого числа нет, R будет отрицательно\n    # Так как все числа не превышают 1000\n    R = 1\nprint(\"Вычисленное контрольное значение: {}\".format(R))\n# Осталось проверить пришедшее число\nresult = int(input())\nif R == result:",
+        "peekOfCode": "R = max(R_0 + R_1, R_2_1 + R_2_2)\n# Это - вычисленное контрольное значение\nif R < 0:\n    # Если такого числа нет, R будет отрицательно\n    # Так как все числа не превышают 1000\n    R = 1\n<<<<<<< HEAD\nprint(\"Вычисленное контрольное значение: {}\".format(R))\n# Осталось проверить пришедшее число\nresult = int(input())",
         "detail": "000000.C4",
         "documentation": {}
     },
@@ -5229,7 +5488,16 @@
         "kind": 5,
         "importPath": "000000.C4",
         "description": "000000.C4",
-        "peekOfCode": "result = int(input())\nif R == result:\n    print(\"Контроль пройден\")\nelse:\n    print(\"Контроль не пройден\")",
+        "peekOfCode": "result = int(input())\nif R == result:\n    print(\"Контроль пройден\")\nelse:\n    print(\"Контроль не пройден\")\n=======\nprint(f\"Вычисленное контрольное значение: {R}\")\n# Осталось проверить пришедшее число\nresult = int(input())\nprint(f\"Контроль {'' if R == result else 'не '}пройден\")",
+        "detail": "000000.C4",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "000000.C4",
+        "description": "000000.C4",
+        "peekOfCode": "result = int(input())\nprint(f\"Контроль {'' if R == result else 'не '}пройден\")\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
         "detail": "000000.C4",
         "documentation": {}
     },
@@ -5382,7 +5650,7 @@
         "kind": 2,
         "importPath": "000000.MessageBox",
         "description": "000000.MessageBox",
-        "peekOfCode": "def messagebox(msg, arg1=None, arg2=None, timeout=None, details=''):\n    def center_widget(widget):\n        '''center the widget on the screen'''\n        widget_pos = widget.frameGeometry()\n        screen_center = QtGui.QDesktopWidget().screenGeometry().center()\n        widget_pos.moveCenter(screen_center)\n        widget.move(widget_pos.topLeft())\n    flags = 0\n    title = 'vfp2py'\n    if arg1 is not None:",
+        "peekOfCode": "def messagebox(msg, arg1=None, arg2=None, timeout=None, details=''):\n    def center_widget(widget):\n        '''center the widget on the screen'''\n        widget_pos = widget.frameGeometry()\n<<<<<<< HEAD\n        screen_center = QtGui.QDesktopWidget().screenGeometry().center()\n=======\n        screen_center = QtGui.QDesktopWidget.screenGeometry().center()\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\n        widget_pos.moveCenter(screen_center)",
         "detail": "000000.MessageBox",
         "documentation": {}
     },
@@ -5643,7 +5911,7 @@
         "kind": 5,
         "importPath": "000000.PyODBC",
         "description": "000000.PyODBC",
-        "peekOfCode": "conn = pyodbc.connect(r'''Driver={ODBC Driver 17 for SQL Server};\n                      Server=.;\n                      Database=master;\n                      Trusted_Connection=yes;\n                      APP=Pyton App;\n                      Workstation=SSA-ASUS''')\n# conn.setdecoding(pyodbc.SQL_CHAR,encoding='utf-8')\ncursor = conn.cursor()\ncursor.execute('select @@version')\nfor row in cursor:",
+        "peekOfCode": "conn = pyodbc.connect(r'''Driver={ODBC Driver 17 for SQL Server};\n<<<<<<< HEAD\n                      Server=.;\n=======\n                      Server=msk-db-1;\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\n                      Database=master;\n                      Trusted_Connection=yes;\n                      APP=Pyton App;\n                      Workstation=SSA-ASUS''')",
         "detail": "000000.PyODBC",
         "documentation": {}
     },
@@ -5652,7 +5920,7 @@
         "kind": 5,
         "importPath": "000000.PyODBC",
         "description": "000000.PyODBC",
-        "peekOfCode": "cursor = conn.cursor()\ncursor.execute('select @@version')\nfor row in cursor:\n    print(row)\nconn.close()",
+        "peekOfCode": "cursor = conn.cursor()\ncursor.execute('select @@version')\nfor row in cursor:\n<<<<<<< HEAD\n    print(row)\n=======\n    print(str(row[0]).replace(r'\\n', '\\n').replace(r'\\t', '\\t'))\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\nconn.close()",
         "detail": "000000.PyODBC",
         "documentation": {}
     },
@@ -6165,7 +6433,7 @@
         "kind": 2,
         "importPath": "000000.PyQt5_simpleEditor",
         "description": "000000.PyQt5_simpleEditor",
-        "peekOfCode": "def main():\n    app = QApplication(sys.argv)\n    editor = TextEdit()\n    sys.exit(app.exec())\nif __name__ == '__main__':\n    main()",
+        "peekOfCode": "def main():\n    app = QApplication(sys.argv)\n    editor = TextEdit()\n<<<<<<< HEAD\n    sys.exit(app.exec())\n=======\n    sys.exit(app.exec_())\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\nif __name__ == '__main__':\n    main()",
         "detail": "000000.PyQt5_simpleEditor",
         "documentation": {}
     },
@@ -6192,7 +6460,7 @@
         "kind": 5,
         "importPath": "000000.PyQt5_ToolTips",
         "description": "000000.PyQt5_ToolTips",
-        "peekOfCode": "button = QPushButton(\"&Закрыть окно\", window)\nbutton.setFixedSize(150, 30)\nbutton.move(75, 20)\nbutton.setToolTip(\"Это всплывающая подсказка для <b>кнопки</b>\")\nwindow.setToolTip(\"Этo всплывающая подсказка для <b>окна</b>\")\nbutton.setWhatsThis(\"Этo справка для <b>кнопки</b>\")\nwindow.setWhatsThis(\"Этo справка для <b>окна</b>\")\nbutton.clicked.connect(app.instance().quit)\nwindow.show()\nsys.exit(app.exec_())",
+        "peekOfCode": "button = QPushButton(\"&Закрыть окно\", window)\nbutton.setFixedSize(150, 30)\nbutton.move(75, 20)\nbutton.setToolTip(\"Это всплывающая подсказка для <b>кнопки</b>\")\nwindow.setToolTip(\"Этo всплывающая подсказка для <b>окна</b>\")\nbutton.setWhatsThis(\"Этo справка для <b>кнопки</b>\")\nwindow.setWhatsThis(\"Этo справка для <b>окна</b>\")\nbutton.clicked.connect(app.instance().quit)\nwindow.show()\n<<<<<<< HEAD",
         "detail": "000000.PyQt5_ToolTips",
         "documentation": {}
     },
@@ -8015,6 +8283,177 @@
         "documentation": {}
     },
     {
+        "label": "rename_files",
+        "kind": 2,
+        "importPath": "Automation.autorename",
+        "description": "Automation.autorename",
+        "peekOfCode": "def rename_files(directory: str, old_substring: str, new_substring: str) -> None:\n\t# ������ ��, ������ ����� �������� ������ Path ��� ������ � ���� � ����������.\n\t# ����� ������� ������� ��� �������� ���� ���������� �� �������������:\n\t# ������� ������ Path ��� ������ � ����� � ����������\n\tdir_path = Path(directory)\n\t# ���������, ���������� �� ��������� ���� � �������� �� �� �����������\n\tif not dir_path.is_dir():\n\t\tprint(f\"������: '{directory}' �� �������� �����������.\")\n\t\treturn\n\t# ��� ������ ����� �������� �� ���� ��������� ����������. � ��� ����� �������������",
+        "detail": "Automation.autorename",
+        "documentation": {}
+    },
+    {
+        "label": "\tdir_path",
+        "kind": 5,
+        "importPath": "Automation.autorename",
+        "description": "Automation.autorename",
+        "peekOfCode": "\tdir_path = Path(directory)\n\t# ���������, ���������� �� ��������� ���� � �������� �� �� �����������\n\tif not dir_path.is_dir():\n\t\tprint(f\"������: '{directory}' �� �������� �����������.\")\n\t\treturn\n\t# ��� ������ ����� �������� �� ���� ��������� ����������. � ��� ����� �������������\n\t# ��������, �������� �� ������� ������� ������ � �������� �� ��� ��� ������� ���������.\n\t# ���� ��, �� ������ ����� ��� �����, ������� ���������, ����� ������ ����� ���� � �����\n\t# � ����������� ������ � ��������������� ���:\n\t# ����������� �� ���� ��������� � ����������",
+        "detail": "Automation.autorename",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tnew_name",
+        "kind": 5,
+        "importPath": "Automation.autorename",
+        "description": "Automation.autorename",
+        "peekOfCode": "\t\t\tnew_name = file_path.name.replace(old_substring, new_substring)\n\t\t\t# ������� ����� ���� � ����� � ����������� ������\n\t\t\tnew_path = file_path.with_name(new_name)\n\t\t\ttry:\n\t\t\t\t# �������� ������������� ����\n\t\t\t\tfile_path.rename(new_path)\n\t\t\t\tprint(f\"������������: {file_path.name} -> {new_name}\")\n\t\t\texcept Exception as e:\n\t\t\t\t# ������������ ��������� ������ ��� ��������������\n\t\t\t\tprint(f\"������ ��� �������������� {file_path.name}: {e}\")",
+        "detail": "Automation.autorename",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tnew_path",
+        "kind": 5,
+        "importPath": "Automation.autorename",
+        "description": "Automation.autorename",
+        "peekOfCode": "\t\t\tnew_path = file_path.with_name(new_name)\n\t\t\ttry:\n\t\t\t\t# �������� ������������� ����\n\t\t\t\tfile_path.rename(new_path)\n\t\t\t\tprint(f\"������������: {file_path.name} -> {new_name}\")\n\t\t\texcept Exception as e:\n\t\t\t\t# ������������ ��������� ������ ��� ��������������\n\t\t\t\tprint(f\"������ ��� �������������� {file_path.name}: {e}\")\n# ������� ����� �����:\nif __name__ == \"__main__\":",
+        "detail": "Automation.autorename",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_ext",
+        "kind": 2,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "def normalize_ext(ext: str) -> str:\n\t\"\"\"���������� ���������� � ������ �������� (��� ������ ������).\"\"\"\n\treturn ext.lower() if ext else \"\"\n# ����� �������� ������� categorize(), ������� ����� ���������� ��� ��������� �� ���������� �����.\n# � ������� ����� �������������� ���� ��������, � ������:\n# path � ���� � �����.\ndef categorize(path: Path) -> str | None:\n\t\"\"\"���������� ��� ��������� �� ���������� �����.\"\"\"\n\tprint(path)\n\text = normalize_ext(path.suffix)",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "categorize",
+        "kind": 2,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "def categorize(path: Path) -> str | None:\n\t\"\"\"���������� ��� ��������� �� ���������� �����.\"\"\"\n\tprint(path)\n\text = normalize_ext(path.suffix)\n\tfor cat, exts in CATEGORY_MAP.items():\n\t\tif ext in exts:\n\t\t\treturn cat\n\treturn None # �� ����� ���������\n# ��������� �������, ������� �� ��������, ����� ���������� sort_files().\n# ��� ����� ����������� ����� �� ����������.",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "sort_files",
+        "kind": 2,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "def sort_files(root: Path) -> None:\n\t\"\"\"���������� ������ �� ����������.\"\"\"\n\tfor item in root.iterdir():\n\t\tprint(item)\n\t\tif not item.is_file():\n\t\t\tcontinue\n# ����� ������� ����� ������������ ��������� ����� � ��� ������ ��� ������ �������\n# ����������� �������� �� �������������� ����� � �����-���� ��������� �� ���������.\n# ���� ������� ���, �� ��������� �������� ����� continue.\n\t\tcat = categorize(item)",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "CATEGORY_MAP",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "CATEGORY_MAP = {\n\"�����������\": [\".jpg\", \".jpeg\", \".png\", \".gif\", \".webp\", \".bmp\"],\n\"���������\": [\".pdf\", \".doc\", \".docx\", \".xls\", \".xlsx\", \".pptx\", \".txt\", \".md\"],\n\"������\": [\".zip\", \".rar\", \".7z\", \".tar\", \".gz\"],\n\"�����\": [\".mp4\", \".mov\", \".avi\", \".mkv\"],\n\"�����\": [\".mp3\", \".wav\", \".flac\", \".ogg\"],\n}\n# ����� �������� ������� normalize_ext(), ������� ����� ���������� ���������� �\n# ������ �������� (��� ������ ������).\n# � ������� ����� �������������� ���� ��������, � ������:",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\text",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\text = normalize_ext(path.suffix)\n\tfor cat, exts in CATEGORY_MAP.items():\n\t\tif ext in exts:\n\t\t\treturn cat\n\treturn None # �� ����� ���������\n# ��������� �������, ������� �� ��������, ����� ���������� sort_files().\n# ��� ����� ����������� ����� �� ����������.\n# � ������� ����� �������������� ���� ��������, � ������:\n# root � ���� � ����� � �������, ������� ���������� �������������.\n# ������ ������� ����� ���������� ���� for, ������� ����� ����������� �� ����� � ������.",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcat",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\t\tcat = categorize(item)\n\t\tif not cat:\n\t\t\tcontinue # ���������� ����������� ����\n\t\t# ����� ���������� ������ ���� � ����� ������� ����������:\n\t\t# ��������� ���� � ������� ����������\n\t\tdest_dir = root / cat\n\t\tdest_dir.mkdir(exist_ok=True) # ������� ����������, ���� � ���\n\t\t# ��������� ������ ���� � ����� � ������� ����������\n\t\tdest_path = dest_dir / item.name\n\t\t# ������� �������� ��� ������ ������� �� ������������� ����� � ����� ������,",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdest_dir",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\t\tdest_dir = root / cat\n\t\tdest_dir.mkdir(exist_ok=True) # ������� ����������, ���� � ���\n\t\t# ��������� ������ ���� � ����� � ������� ����������\n\t\tdest_path = dest_dir / item.name\n\t\t# ������� �������� ��� ������ ������� �� ������������� ����� � ����� ������,\n\t\t# ����� ���� ���������� ���� � ��������������� ����� � ������� ��������� �� �������� �����������:\n\t\t# ���������, �� ���������� �� ��� ���� � ����� ������\n\t\tif dest_path.exists():\n\t\t\t# ���� ����������, ��������� ������� _dup\n\t\t\tdest_path = dest_dir / f\"{item.stem}_dup{dest_path.suffix}\"",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tdest_path",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\t\tdest_path = dest_dir / item.name\n\t\t# ������� �������� ��� ������ ������� �� ������������� ����� � ����� ������,\n\t\t# ����� ���� ���������� ���� � ��������������� ����� � ������� ��������� �� �������� �����������:\n\t\t# ���������, �� ���������� �� ��� ���� � ����� ������\n\t\tif dest_path.exists():\n\t\t\t# ���� ����������, ��������� ������� _dup\n\t\t\tdest_path = dest_dir / f\"{item.stem}_dup{dest_path.suffix}\"\n\t\t\t# ���������� ����\n\t\t\tshutil.move(str(item), str(dest_path))\n\t\t\tprint(f\"����������: {item.name} -> {dest_dir.name}/\")",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tdest_path",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\t\t\tdest_path = dest_dir / f\"{item.stem}_dup{dest_path.suffix}\"\n\t\t\t# ���������� ����\n\t\t\tshutil.move(str(item), str(dest_path))\n\t\t\tprint(f\"����������: {item.name} -> {dest_dir.name}/\")\n# �������� �������� ����� �����:\nif __name__ == \"__main__\":\n# �������� ���� � ���������� �� ������������\n\tuser_input = input(\"������� ���� � ����� ��� ����������: \").strip()\n\ttarget_dir = Path(user_input)\n# ��������� ������������ ���������� ����",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_input",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\tuser_input = input(\"������� ���� � ����� ��� ����������: \").strip()\n\ttarget_dir = Path(user_input)\n# ��������� ������������ ���������� ����\n\tif not target_dir.exists() or not target_dir.is_dir():\n\t\tprint(\"������: ��������� ����� �� ���������� ��� ���� �������.\")\n\telse:\n\t\tsort_files(target_dir) # ��������� ����������\n\t\tprint(\"������: ����� �������������.\")",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "\ttarget_dir",
+        "kind": 5,
+        "importPath": "Automation.Categorize",
+        "description": "Automation.Categorize",
+        "peekOfCode": "\ttarget_dir = Path(user_input)\n# ��������� ������������ ���������� ����\n\tif not target_dir.exists() or not target_dir.is_dir():\n\t\tprint(\"������: ��������� ����� �� ���������� ��� ���� �������.\")\n\telse:\n\t\tsort_files(target_dir) # ��������� ����������\n\t\tprint(\"������: ����� �������������.\")",
+        "detail": "Automation.Categorize",
+        "documentation": {}
+    },
+    {
+        "label": "zip_folder",
+        "kind": 2,
+        "importPath": "Automation.compress",
+        "description": "Automation.compress",
+        "peekOfCode": "def zip_folder(folder_path: str, archive_name: str) -> None:\n\t# ������ ��, ������ ����� ��������� �������� �� ������������� �����:\n\tfolder = Path(folder_path)\n\t# ���������, ���������� �� ��������� �����\n\tif not folder.is_dir():\n\t\tprint(f\"����� '{folder_path}' �� �������.\")\n\t\treturn\n\t# ����� ������������� ����������� ���������� � �������/�������� ZIP-����� � ������ ������.\n\t# ������ ���������� �������� �� ���� ������ � ���������� � ������� �� � �������� �����:\n\t# ��������� ��� ������ ZIP-����� � ������ ������",
+        "detail": "Automation.compress",
+        "documentation": {}
+    },
+    {
+        "label": "\tfolder",
+        "kind": 5,
+        "importPath": "Automation.compress",
+        "description": "Automation.compress",
+        "peekOfCode": "\tfolder = Path(folder_path)\n\t# ���������, ���������� �� ��������� �����\n\tif not folder.is_dir():\n\t\tprint(f\"����� '{folder_path}' �� �������.\")\n\t\treturn\n\t# ����� ������������� ����������� ���������� � �������/�������� ZIP-����� � ������ ������.\n\t# ������ ���������� �������� �� ���� ������ � ���������� � ������� �� � �������� �����:\n\t# ��������� ��� ������ ZIP-����� � ������ ������\n\twith zipfile.ZipFile(archive_name, mode=\"w\", compression=zipfile.ZIP_DEFLATED) as archive:\n\t\t# ���������� ������� ��� ����� � ����� ������ �������� ����������",
+        "detail": "Automation.compress",
+        "documentation": {}
+    },
+    {
+        "label": "\tfolder_path",
+        "kind": 5,
+        "importPath": "Automation.compress",
+        "description": "Automation.compress",
+        "peekOfCode": "\tfolder_path = input(\"������� ���� � ����� ��� ������: \").strip()\n\t# ������������� ��������� ��� ������ �� ����� �����\n\tarchive_name = Path(folder_path).name + \".zip\"\n\t# �������� ������� ���������\n\tzip_folder(folder_path, archive_name)",
+        "detail": "Automation.compress",
+        "documentation": {}
+    },
+    {
+        "label": "\tarchive_name",
+        "kind": 5,
+        "importPath": "Automation.compress",
+        "description": "Automation.compress",
+        "peekOfCode": "\tarchive_name = Path(folder_path).name + \".zip\"\n\t# �������� ������� ���������\n\tzip_folder(folder_path, archive_name)",
+        "detail": "Automation.compress",
+        "documentation": {}
+    },
+    {
         "label": "save_callback",
         "kind": 2,
         "importPath": "DearPyGUI.1",
@@ -8195,6 +8634,51 @@
         "documentation": {}
     },
     {
+        "label": "FromDate",
+        "kind": 5,
+        "importPath": "LoadCurs.get_curs",
+        "description": "LoadCurs.get_curs",
+        "peekOfCode": "FromDate = (datetime.now() + timedelta(days=-7)).strftime(\"%Y-%m-%d\") # \"2025-04-11\"\nToDate   = (datetime.now() + timedelta(days= 1)).strftime(\"%Y-%m-%d\")  # \"2024-07-02\"\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\nValutes: dict = {\"USD\": \"R01235\", \"EUR\": \"R01239\"}\nfor valuta, code in Valutes.items():\n<<<<<<< HEAD\n    content = (\n        '<?xml version=\"1.0\" encoding=\"utf-8\"?>'\n        + \"<soap12:Envelope\"\n        + ' xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"'",
+        "detail": "LoadCurs.get_curs",
+        "documentation": {}
+    },
+    {
+        "label": "\tcontent",
+        "kind": 5,
+        "importPath": "LoadCurs.get_curs",
+        "description": "LoadCurs.get_curs",
+        "peekOfCode": "\tcontent = (\n\t\t\t'<?xml version=\"1.0\" encoding=\"utf-8\"?>'\n\t\t\t+ \"<soap12:Envelope\"\n\t\t\t+ ' xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"'\n\t\t\t+ ' xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"'\n\t\t\t+ ' xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">'\n\t\t\t+ \" <soap12:Body>\"\n\t\t\t+ ' <GetCursDynamicXML xmlns=\"http://web.cbr.ru/\">'\n\t\t\t+ f\"<FromDate>{FromDate}T00:00:00</FromDate>\"\n\t\t\t+ f\"<ToDate>{ToDate}T00:00:00</ToDate>\"",
+        "detail": "LoadCurs.get_curs",
+        "documentation": {}
+    },
+    {
+        "label": "\theader_params",
+        "kind": 5,
+        "importPath": "LoadCurs.get_curs",
+        "description": "LoadCurs.get_curs",
+        "peekOfCode": "\theader_params = {\n\t\t\"POST\": \"/DailyInfoWebServ/DailyInfo.asmx HTTP/1.1\",\n\t\t\"Host\": \"www.cbr.ru\",\n\t\t\"Content-Type\": \"application/soap+xml; charset=utf-8\",\n\t\t\"Content-Length\": f\"{len(content)}\",\n\t}\n\tresponse = requests.post(\n\t\t\"https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx\",\n\t\theaders=header_params,\n\t\tdata=content,",
+        "detail": "LoadCurs.get_curs",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse",
+        "kind": 5,
+        "importPath": "LoadCurs.get_curs",
+        "description": "LoadCurs.get_curs",
+        "peekOfCode": "\tresponse = requests.post(\n\t\t\"https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx\",\n\t\theaders=header_params,\n\t\tdata=content,\n\t\ttimeout=5,\n\t).text\n\tbody = xmltodict.parse(response)[\"soap:Envelope\"][\"soap:Body\"][ # type: ignore\n\t\t\"GetCursDynamicXMLResponse\"\n\t][\"GetCursDynamicXMLResult\"][\"ValuteData\"][\"ValuteCursDynamic\"]\n\tprint(valuta)",
+        "detail": "LoadCurs.get_curs",
+        "documentation": {}
+    },
+    {
+        "label": "\tbody",
+        "kind": 5,
+        "importPath": "LoadCurs.get_curs",
+        "description": "LoadCurs.get_curs",
+        "peekOfCode": "\tbody = xmltodict.parse(response)[\"soap:Envelope\"][\"soap:Body\"][ # type: ignore\n\t\t\"GetCursDynamicXMLResponse\"\n\t][\"GetCursDynamicXMLResult\"][\"ValuteData\"][\"ValuteCursDynamic\"]\n\tprint(valuta)\n\tfor valute in body:\n\t\tprint(valute[\"CursDate\"][:10], valute[\"Vcurs\"])\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
+        "detail": "LoadCurs.get_curs",
+        "documentation": {}
+    },
+    {
         "label": "TempMixin",
         "kind": 6,
         "importPath": "Mixins.inheritans_converter",
@@ -8208,7 +8692,7 @@
         "kind": 6,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "class DigitalStoreMixin:\n\t\"\"\"Convert digital valies.\"\"\"\n\t@staticmethod\n\tdef gb_to_mb(gb: int) -> int:\n\t\treturn gb * 1000\n\t@staticmethod\n\tdef mb_to_gb(mb: int) -> float:\n\t\treturn mb / 1000\nclass HardDrive(TempMixin, DigitalStoreMixin):\n\t\"\"\"Computer hard drive.\"\"\"",
+        "peekOfCode": "class DigitalStoreMixin:\n\t\"\"\"Convert digital valies.\"\"\"\n\t@staticmethod\n\tdef gb_to_mb(gb: int) -> int:\n\t\treturn gb * 1000\n\t@staticmethod\n<<<<<<< HEAD\n\tdef mb_to_gb(mb: int) -> float:\n\t\treturn mb / 1000\nclass HardDrive(TempMixin, DigitalStoreMixin):",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8217,7 +8701,16 @@
         "kind": 6,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "class HardDrive(TempMixin, DigitalStoreMixin):\n\t\"\"\"Computer hard drive.\"\"\"\n\tdef __init__(self, space: int, celsius:int) -> None:\n\t\t\"\"\"Inintialize drive status.\"\"\"\n\t\tself._space = space\n\t\tself._celsius = celsius\n\tdef status(self, metric=True) -> None:\n\t\t\"\"\"Display drive status.\"\"\"\n\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)",
+        "peekOfCode": "class HardDrive(TempMixin, DigitalStoreMixin):\n\t\"\"\"Computer hard drive.\"\"\"\n\tdef __init__(self, space: int, celsius:int) -> None:\n=======\n\tdef mb_to_gb(mb: int) -> int:\n\t\treturn mb // 1000\nclass HardDrive(TempMixin, DigitalStoreMixin):\n\t\"\"\"Computer hard drive.\"\"\"\n\tdef __init__(self, space: int, celsius: int) -> None:\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
+        "detail": "Mixins.inheritans_converter",
+        "documentation": {}
+    },
+    {
+        "label": "HardDrive",
+        "kind": 6,
+        "importPath": "Mixins.inheritans_converter",
+        "description": "Mixins.inheritans_converter",
+        "peekOfCode": "class HardDrive(TempMixin, DigitalStoreMixin):\n\t\"\"\"Computer hard drive.\"\"\"\n\tdef __init__(self, space: int, celsius: int) -> None:\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\n\t\t\"\"\"Inintialize drive status.\"\"\"\n\t\tself._space = space\n\t\tself._celsius = celsius\n\tdef status(self, metric=True) -> None:\n\t\t\"\"\"Display drive status.\"\"\"\n\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8226,7 +8719,7 @@
         "kind": 5,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "\t\tself._space = space\n\t\tself._celsius = celsius\n\tdef status(self, metric=True) -> None:\n\t\t\"\"\"Display drive status.\"\"\"\n\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)",
+        "peekOfCode": "\t\tself._space = space\n\t\tself._celsius = celsius\n\tdef status(self, metric=True) -> None:\n\t\t\"\"\"Display drive status.\"\"\"\n\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)\n<<<<<<< HEAD\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8235,7 +8728,7 @@
         "kind": 5,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "\t\tself._celsius = celsius\n\tdef status(self, metric=True) -> None:\n\t\t\"\"\"Display drive status.\"\"\"\n\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)",
+        "peekOfCode": "\t\tself._celsius = celsius\n\tdef status(self, metric=True) -> None:\n\t\t\"\"\"Display drive status.\"\"\"\n\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)\n<<<<<<< HEAD\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8244,7 +8737,7 @@
         "kind": 5,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)",
+        "peekOfCode": "\t\ttemp = self._celsius if metric else self.c_to_f(self._celsius)\n\t\tspace = self.mb_to_gb(self._space)\n<<<<<<< HEAD\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)\n=======\n\t\tprint(f'Space: {space} GB, Temp: {temp} {u\"\\u00B0\"}{'C' if metric else 'F'}')\nhd = HardDrive(8000000, 25)",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8253,7 +8746,7 @@
         "kind": 5,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "\t\tspace = self.mb_to_gb(self._space)\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)",
+        "peekOfCode": "\t\tspace = self.mb_to_gb(self._space)\n<<<<<<< HEAD\n\t\tprint(f'Space: {space} GB, Temp: {temp} {'C' if metric else 'F'}')\nhd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)\n=======\n\t\tprint(f'Space: {space} GB, Temp: {temp} {u\"\\u00B0\"}{'C' if metric else 'F'}')\nhd = HardDrive(8000000, 25)\nhd.status()",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8262,7 +8755,7 @@
         "kind": 5,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "hd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)",
+        "peekOfCode": "hd = HardDrive(8000000, 22)\nhd.status()\nhd.status(metric = False)\n=======\n\t\tprint(f'Space: {space} GB, Temp: {temp} {u\"\\u00B0\"}{'C' if metric else 'F'}')\nhd = HardDrive(8000000, 25)\nhd.status()\nhd.status(metric = False)\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8271,7 +8764,25 @@
         "kind": 5,
         "importPath": "Mixins.inheritans_converter",
         "description": "Mixins.inheritans_converter",
-        "peekOfCode": "hd.status(metric = False)",
+        "peekOfCode": "hd.status(metric = False)\n=======\n\t\tprint(f'Space: {space} GB, Temp: {temp} {u\"\\u00B0\"}{'C' if metric else 'F'}')\nhd = HardDrive(8000000, 25)\nhd.status()\nhd.status(metric = False)\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
+        "detail": "Mixins.inheritans_converter",
+        "documentation": {}
+    },
+    {
+        "label": "hd",
+        "kind": 5,
+        "importPath": "Mixins.inheritans_converter",
+        "description": "Mixins.inheritans_converter",
+        "peekOfCode": "hd = HardDrive(8000000, 25)\nhd.status()\nhd.status(metric = False)\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
+        "detail": "Mixins.inheritans_converter",
+        "documentation": {}
+    },
+    {
+        "label": "hd.status(metric",
+        "kind": 5,
+        "importPath": "Mixins.inheritans_converter",
+        "description": "Mixins.inheritans_converter",
+        "peekOfCode": "hd.status(metric = False)\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
         "detail": "Mixins.inheritans_converter",
         "documentation": {}
     },
@@ -8280,7 +8791,16 @@
         "kind": 5,
         "importPath": "n_bot_ntd.cfg_token",
         "description": "n_bot_ntd.cfg_token",
-        "peekOfCode": "ya_dsk_token = '��� ����������� �� ��'",
+        "peekOfCode": "ya_dsk_token = '��� ����������� �� ��'\n=======\n# создаем файл конфигурации cfg_token.py и помещаем туда ключи яндекса и телеги\n## токен ТГ\ntelebot_token ='тут абракадабра от ТГ'\n## токен ЯД\nya_dsk_token = 'тут абракадабра от ЯД'\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
+        "detail": "n_bot_ntd.cfg_token",
+        "documentation": {}
+    },
+    {
+        "label": "ya_dsk_token",
+        "kind": 5,
+        "importPath": "n_bot_ntd.cfg_token",
+        "description": "n_bot_ntd.cfg_token",
+        "peekOfCode": "ya_dsk_token = 'тут абракадабра от ЯД'\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841",
         "detail": "n_bot_ntd.cfg_token",
         "documentation": {}
     },
@@ -8307,7 +8827,7 @@
         "kind": 5,
         "importPath": "n_bot_ntd.load_to_yad",
         "description": "n_bot_ntd.load_to_yad",
-        "peekOfCode": "format_move_files = (\n    \".pdf\",\n    \".doc\",\n    \".docx\",\n    \".djvu\",\n    \".rar\",\n)  # , '.rtf') '.zip', - зипы плохо обраб. ЯД\nup_dir = \"Serii\"  # папка для хранения\n## 'GOST'  'SP'  'VSN' 'STO'\ndef up_to_dir(file_name):",
+        "peekOfCode": "format_move_files = (\n    \".pdf\",\n    \".doc\",\n    \".docx\",\n    \".djvu\",\n    \".rar\",\n)  # , '.rtf') '.zip', - зипы плохо обраб. ЯД\nup_dir = \"Serii\"  # папка для хранения\n<<<<<<< HEAD\n## 'GOST'  'SP'  'VSN' 'STO'",
         "detail": "n_bot_ntd.load_to_yad",
         "documentation": {}
     },
@@ -8316,7 +8836,7 @@
         "kind": 5,
         "importPath": "n_bot_ntd.load_to_yad",
         "description": "n_bot_ntd.load_to_yad",
-        "peekOfCode": "up_dir = \"Serii\"  # папка для хранения\n## 'GOST'  'SP'  'VSN' 'STO'\ndef up_to_dir(file_name):\n    \"\"\"\n    Загрузка файла в папку на ЯД\n    :param file_name:\n    \"\"\"\n    try:\n        # путь к загружаемым в облако файлам от пользователей\n        src = f\"/{up_dir}\"",
+        "peekOfCode": "up_dir = \"Serii\"  # папка для хранения\n<<<<<<< HEAD\n## 'GOST'  'SP'  'VSN' 'STO'\n=======\n## 'GOST'  'SP'  'VSN' 'STO'\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\ndef up_to_dir(file_name):\n    \"\"\"\n    Загрузка файла в папку на ЯД\n    :param file_name:",
         "detail": "n_bot_ntd.load_to_yad",
         "documentation": {}
     },
@@ -10098,8 +10618,17 @@
         "kind": 5,
         "importPath": "Exif_1",
         "description": "Exif_1",
-        "peekOfCode": "NIKON_TRANSFER_PATH = r\"c:\\Users\\sssss\\Images\\Nikon Transfer 2\"\ndef image_metadata(path_f):\n    \"\"\"\n    :param path_f:\n    \"\"\"\n    img = Image.open(path_f)\n    info_dict = {\n            \"Имя файла\": os.path.split(path_f)[1],\n            \"Разрешение изображения\": img.size,\n            \"Высота изображения\": img.height,",
+        "peekOfCode": "NIKON_TRANSFER_PATH = r\"c:\\Users\\sssss\\Images\\Nikon Transfer 2\"\n<<<<<<< HEAD\n=======\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\ndef image_metadata(path_f):\n    \"\"\"\n    :param path_f:\n    \"\"\"\n    img = Image.open(path_f)\n    info_dict = {",
         "detail": "Exif_1",
+        "documentation": {}
+    },
+    {
+        "label": "fact",
+        "kind": 2,
+        "importPath": "Factorial",
+        "description": "Factorial",
+        "peekOfCode": "def fact(x: int) -> int:\n\tif x == 1:\n\t\treturn 1\n\telse:\n\t\treturn fact(x-1) * x\n\t# ret = 1 if x == 1 else fact(x-1)\n\t# print(ret)\n\t# return ret\nprint(fact(5))\nprint(fact(10))",
+        "detail": "Factorial",
         "documentation": {}
     },
     {
@@ -10154,6 +10683,33 @@
         "description": "get_chrome_tabs",
         "peekOfCode": "def get_chrome_tabs(debug_port=9222):\n    \"\"\"\n    Получает и выводит список открытых вкладок Chrome через удаленную отладку.\n    Args:\n        debug_port (int): Порт, на котором включена удаленная отладка.\n                          По умолчанию используется порт 9222.\n    \"\"\"\n    try:\n        response = requests.get(f\"http://localhost:{debug_port}/json\")\n        tabs = response.json()",
         "detail": "get_chrome_tabs",
+        "documentation": {}
+    },
+    {
+        "label": "hex_output",
+        "kind": 2,
+        "importPath": "Hex",
+        "description": "Hex",
+        "peekOfCode": "def hex_output():\n\tdecnum = 0\n\thexnum = input('Введите шестнадцатеричное число для преобразования: ')\n\tfor power, digit in enumerate(reversed(hexnum)):\n\t\tdecnum += int(digit, 16) * (16 ** power)\n\t\tprint(decnum)\nhex_output()",
+        "detail": "Hex",
+        "documentation": {}
+    },
+    {
+        "label": "\tdecnum",
+        "kind": 5,
+        "importPath": "Hex",
+        "description": "Hex",
+        "peekOfCode": "\tdecnum = 0\n\thexnum = input('Введите шестнадцатеричное число для преобразования: ')\n\tfor power, digit in enumerate(reversed(hexnum)):\n\t\tdecnum += int(digit, 16) * (16 ** power)\n\t\tprint(decnum)\nhex_output()",
+        "detail": "Hex",
+        "documentation": {}
+    },
+    {
+        "label": "\thexnum",
+        "kind": 5,
+        "importPath": "Hex",
+        "description": "Hex",
+        "peekOfCode": "\thexnum = input('Введите шестнадцатеричное число для преобразования: ')\n\tfor power, digit in enumerate(reversed(hexnum)):\n\t\tdecnum += int(digit, 16) * (16 ** power)\n\t\tprint(decnum)\nhex_output()",
+        "detail": "Hex",
         "documentation": {}
     },
     {
@@ -10458,7 +11014,16 @@
         "kind": 2,
         "importPath": "order_by_extention",
         "description": "order_by_extention",
-        "peekOfCode": "def create_folders(folder_path):\n    # �������� ������ ���� ������ � �����\n    files = folder_path.iterdir()\n    # ���������� �� ������� ����� � ������� ����� �� �����������\n    for file in files:\n        if file.is_file():\n            file_extension = file.suffix\n            folder_name = file_extension[1:]\n            folder_path_new = folder_path / folder_name\n            # ���������, ���������� �� ����� ��� ������� ����������",
+        "peekOfCode": "def create_folders(folder_path):\n    # �������� ������ ���� ������ � �����\n    files = folder_path.iterdir()\n    # ���������� �� ������� ����� � ������� ����� �� �����������\n=======\n# Код для упорядочивания файлов по директориям в зависимости от их расширения на Python\nfrom pathlib import Path\n# Создаем папки для каждого расширения файла\ndef create_folders(folder_path):\n    # Получаем список всех файлов в папке",
+        "detail": "order_by_extention",
+        "documentation": {}
+    },
+    {
+        "label": "create_folders",
+        "kind": 2,
+        "importPath": "order_by_extention",
+        "description": "order_by_extention",
+        "peekOfCode": "def create_folders(folder_path):\n    # Получаем список всех файлов в папке\n    files = folder_path.iterdir()\n    # Проходимся по каждому файлу и создаем папки по расширениям\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\n    for file in files:\n        if file.is_file():\n            file_extension = file.suffix\n            folder_name = file_extension[1:]\n            folder_path_new = folder_path / folder_name",
         "detail": "order_by_extention",
         "documentation": {}
     },
@@ -10467,7 +11032,16 @@
         "kind": 2,
         "importPath": "order_by_extention",
         "description": "order_by_extention",
-        "peekOfCode": "def move_files(folder_path):\n    create_folders(folder_path)\n    # �������� ������ ���� ������ � �����\n    files = folder_path.iterdir()\n    # ���������� �� ������� ����� � ���������� ��� � ��������������� �����\n    for file in files:\n        if file.is_file():\n            file_extension = file.suffix\n            folder_name = file_extension[1:]\n            folder_path_new = folder_path / folder_name",
+        "peekOfCode": "def move_files(folder_path):\n    create_folders(folder_path)\n    # �������� ������ ���� ������ � �����\n    files = folder_path.iterdir()\n    # ���������� �� ������� ����� � ���������� ��� � ��������������� �����\n=======\n# Перемещаем файлы в соответствующие папки\ndef move_files(folder_path):\n    create_folders(folder_path)\n    # Получаем список всех файлов в папке",
+        "detail": "order_by_extention",
+        "documentation": {}
+    },
+    {
+        "label": "move_files",
+        "kind": 2,
+        "importPath": "order_by_extention",
+        "description": "order_by_extention",
+        "peekOfCode": "def move_files(folder_path):\n    create_folders(folder_path)\n    # Получаем список всех файлов в папке\n    files = folder_path.iterdir()\n    # Проходимся по каждому файлу и перемещаем его в соответствующую папку\n>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841\n    for file in files:\n        if file.is_file():\n            file_extension = file.suffix\n            folder_name = file_extension[1:]",
         "detail": "order_by_extention",
         "documentation": {}
     },
@@ -10541,6 +11115,78 @@
         "description": "password_generator",
         "peekOfCode": "AMBIG = set('O0Il1') # Определяем набор символов, которые могут выглядеть похожими (амбивалентные символы).\nif __name__ == \"__main__\":\n    ap = argparse.ArgumentParser()\n    ap.add_argument('-l', '--length', type=int, default=16,  # Указание длины пароля.\n                    help='длина пароля (по умолчанию: 16)')\n    ap.add_argument('-d', '--digits', action='store_true',  # Включать ли цифр в пароль.\n                    help='включить цифры в пароль')\n    ap.add_argument('-s', '--symbols', action='store_true',  # Включать ЛИ символов в пароль.\n                    help='включить специальные символы в пароль')\n    ap.add_argument('--no-ambig', action='store_true',",
         "detail": "password_generator",
+        "documentation": {}
+    },
+    {
+        "label": "pig_latin",
+        "kind": 2,
+        "importPath": "pig_latin",
+        "description": "pig_latin",
+        "peekOfCode": "def pig_latin(word):\n\tif word[0] in 'aeiou':\n\t\treturn f'{word}way'\n\treturn f'{word[1:]}{word[0]}ay'\nprint(pig_latin('python'))",
+        "detail": "pig_latin",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_syllables",
+        "kind": 2,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "def split_into_syllables(word):\n\tdic = pyphen.Pyphen(lang='ru')\n\tsyllables = dic.inserted(word).split('-')\n\treturn syllables\ndef encrypt_string(s):\n\t# Определяем слоги с помощью регулярного выражения\n\tsyllables = re.findall(r'[а-яё]+', s, re.IGNORECASE)\n\t# Создаем новый список, добавляя 'с' и гласную букву после каждого слога\n\tencrypted_syllables = [syllable + 'с' + syllable[-1] for syllable in syllables]\n\t# Объединяем список в строку",
+        "detail": "pig_russ",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_string",
+        "kind": 2,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "def encrypt_string(s):\n\t# Определяем слоги с помощью регулярного выражения\n\tsyllables = re.findall(r'[а-яё]+', s, re.IGNORECASE)\n\t# Создаем новый список, добавляя 'с' и гласную букву после каждого слога\n\tencrypted_syllables = [syllable + 'с' + syllable[-1] for syllable in syllables]\n\t# Объединяем список в строку\n\tencrypted_string = ''.join(encrypted_syllables)\n\treturn encrypted_string\n# Тестирование функции\nprint(encrypt_string('Три друга'))  # Вывод: 'Триси друсугаса'",
+        "detail": "pig_russ",
+        "documentation": {}
+    },
+    {
+        "label": "\tdic",
+        "kind": 5,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "\tdic = pyphen.Pyphen(lang='ru')\n\tsyllables = dic.inserted(word).split('-')\n\treturn syllables\ndef encrypt_string(s):\n\t# Определяем слоги с помощью регулярного выражения\n\tsyllables = re.findall(r'[а-яё]+', s, re.IGNORECASE)\n\t# Создаем новый список, добавляя 'с' и гласную букву после каждого слога\n\tencrypted_syllables = [syllable + 'с' + syllable[-1] for syllable in syllables]\n\t# Объединяем список в строку\n\tencrypted_string = ''.join(encrypted_syllables)",
+        "detail": "pig_russ",
+        "documentation": {}
+    },
+    {
+        "label": "\tsyllables",
+        "kind": 5,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "\tsyllables = dic.inserted(word).split('-')\n\treturn syllables\ndef encrypt_string(s):\n\t# Определяем слоги с помощью регулярного выражения\n\tsyllables = re.findall(r'[а-яё]+', s, re.IGNORECASE)\n\t# Создаем новый список, добавляя 'с' и гласную букву после каждого слога\n\tencrypted_syllables = [syllable + 'с' + syllable[-1] for syllable in syllables]\n\t# Объединяем список в строку\n\tencrypted_string = ''.join(encrypted_syllables)\n\treturn encrypted_string",
+        "detail": "pig_russ",
+        "documentation": {}
+    },
+    {
+        "label": "\tsyllables",
+        "kind": 5,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "\tsyllables = re.findall(r'[а-яё]+', s, re.IGNORECASE)\n\t# Создаем новый список, добавляя 'с' и гласную букву после каждого слога\n\tencrypted_syllables = [syllable + 'с' + syllable[-1] for syllable in syllables]\n\t# Объединяем список в строку\n\tencrypted_string = ''.join(encrypted_syllables)\n\treturn encrypted_string\n# Тестирование функции\nprint(encrypt_string('Три друга'))  # Вывод: 'Триси друсугаса'\nprint(encrypt_string('Сам ты дурак')) # Сасам тысы дусурасак\n# Тестирование функции",
+        "detail": "pig_russ",
+        "documentation": {}
+    },
+    {
+        "label": "\tencrypted_syllables",
+        "kind": 5,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "\tencrypted_syllables = [syllable + 'с' + syllable[-1] for syllable in syllables]\n\t# Объединяем список в строку\n\tencrypted_string = ''.join(encrypted_syllables)\n\treturn encrypted_string\n# Тестирование функции\nprint(encrypt_string('Три друга'))  # Вывод: 'Триси друсугаса'\nprint(encrypt_string('Сам ты дурак')) # Сасам тысы дусурасак\n# Тестирование функции\nprint(split_into_syllables('Три  друга'))",
+        "detail": "pig_russ",
+        "documentation": {}
+    },
+    {
+        "label": "\tencrypted_string",
+        "kind": 5,
+        "importPath": "pig_russ",
+        "description": "pig_russ",
+        "peekOfCode": "\tencrypted_string = ''.join(encrypted_syllables)\n\treturn encrypted_string\n# Тестирование функции\nprint(encrypt_string('Три друга'))  # Вывод: 'Триси друсугаса'\nprint(encrypt_string('Сам ты дурак')) # Сасам тысы дусурасак\n# Тестирование функции\nprint(split_into_syllables('Три  друга'))",
+        "detail": "pig_russ",
         "documentation": {}
     },
     {

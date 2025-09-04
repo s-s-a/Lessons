@@ -18,8 +18,12 @@ def get_random_cat_image():
         return image_url
     else:  # Если запрос не успешен
         # Выбрасываем исключение с сообщением об ошибке
+<<<<<<< HEAD
         raise Exception(
             f"Ошибка при получении данных от The Cat API: {response.status_code}"
+=======
+        raise Exception(f"Ошибка при получении данных от The Cat API: {response.status_code}"
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
         )
 
 
@@ -38,8 +42,12 @@ def display_image(image_url: str) -> None:
     else:  # Если запрос не успешен
         # Выбрасываем исключение с сообщением об ошибке
         raise Exception(
+<<<<<<< HEAD
             f"Ошибка при получении изображения с {image_url}: {response.status_code}"
         )
+=======
+            f"Ошибка при получении изображения с {image_url}: {response.status_code}")
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 
 
 def main() -> None:

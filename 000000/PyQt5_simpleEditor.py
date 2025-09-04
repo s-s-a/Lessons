@@ -9,7 +9,11 @@
 import sys
 import os
 import pickle
+<<<<<<< HEAD
 from PySide6 import *
+=======
+from PyQt5 import *
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 from PySide6.QtWidgets import *
 from PySide6.QtCore import *
 from PySide6.QtGui import *
@@ -122,7 +126,11 @@ class TextEdit(QMainWindow):
 def main():
     app = QApplication(sys.argv)
     editor = TextEdit()
+<<<<<<< HEAD
     sys.exit(app.exec())
+=======
+    sys.exit(app.exec_())
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 
 
 if __name__ == '__main__':

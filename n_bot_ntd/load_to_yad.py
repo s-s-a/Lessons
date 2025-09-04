@@ -21,10 +21,15 @@ format_move_files = (
 )  # , '.rtf') '.zip', - зипы плохо обраб. ЯД
 up_dir = "Serii"  # папка для хранения
 
+<<<<<<< HEAD
 
 ## 'GOST'  'SP'  'VSN' 'STO'
 
 
+=======
+## 'GOST'  'SP'  'VSN' 'STO'
+
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 def up_to_dir(file_name):
     """
     Загрузка файла в папку на ЯД

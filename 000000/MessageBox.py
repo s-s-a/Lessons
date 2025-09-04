@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 import sys
 from PySide6.QtWidgets import QWidget, QMessageBox, QApplication
 import PySide6.QtWidgets as QtGui
 from MessageBoxConstants import *
+=======
+import PySide6.QtWidgets as QtGui
+from PySide6.QtWidgets import QMessageBox
+import PySide6.QtCore as QtCore
+from MessageBoxConstants import OK, CANCEL, ABORT, RETRY, IGNORE, YES, NO, RETURN_OK, RETURN_CANCEL, RETURN_ABORT, RETURN_RETRY, RETURN_IGNORE, RETURN_YES, RETURN_NO
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 
 def messagebox(msg, arg1=None, arg2=None, timeout=None, details=''):
 
     def center_widget(widget):
         '''center the widget on the screen'''
         widget_pos = widget.frameGeometry()
+<<<<<<< HEAD
         screen_center = QtGui.QDesktopWidget().screenGeometry().center()
+=======
+        screen_center = QtGui.QDesktopWidget.screenGeometry().center()
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
         widget_pos.moveCenter(screen_center)
         widget.move(widget_pos.topLeft())
 
@@ -39,11 +50,19 @@ def messagebox(msg, arg1=None, arg2=None, timeout=None, details=''):
         buttonobj |= button
 
     icon = {
+<<<<<<< HEAD
         NOICON: QtGui.QMessageBox.NoIcon,
         STOPSIGN: QtGui.QMessageBox.Critical,
         QUESTION: QtGui.QMessageBox.Question,
         EXCLAMATION: QtGui.QMessageBox.Warning,
         INFORMATION: QtGui.QMessageBox.Information
+=======
+        NOICON: QMessageBox.NoIcon,
+        STOPSIGN: QMessageBox.Critical,
+        QUESTION: QMessageBox.Question,
+        EXCLAMATION: QMessageBox.Warning,
+        INFORMATION: QMessageBox.Information
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
     }[flags & (15 << 4)]
 
     default_button = min(len(buttons[0])-1, (flags >> 8))
@@ -67,9 +86,15 @@ def messagebox(msg, arg1=None, arg2=None, timeout=None, details=''):
         timer = QtCore.QTimer()
         timer.setSingleShot(True)
         timer.timeout.connect(closebox)
+<<<<<<< HEAD
         timer.start(float(timeout)*1000)
         timeout = timer
     button = msg_box.exec_()
+=======
+        timer.start(int(float(timeout)*1000))
+        timeout = timer
+    button = msg_box.exec()
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
     if timeout and timeout.isActive():
         timeout.stop()
     retval = retval[0]

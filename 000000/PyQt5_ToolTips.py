@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 from PySide6.QtWidgets import QMainWindow, QTextEdit, QAction, QApplication, QWidget, QPushButton
 from PySide6.QtGui import QIcon
+<<<<<<< HEAD
 from PySide6 import QtCore, QtGui
 import sys
 
+=======
+from PyQt5 import QtCore, QtGui
+import sys
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 app = QApplication(sys.argv)
 window = QWidget(flags=QtCore.Qt.Dialog)
 window.setWindowTitle("Bcплывaюшиe подсказки")
@@ -17,4 +22,8 @@ button.setWhatsThis("Этo справка для <b>кнопки</b>")
 window.setWhatsThis("Этo справка для <b>окна</b>")
 button.clicked.connect(app.instance().quit)
 window.show()
+<<<<<<< HEAD
 sys.exit(app.exec_())
+=======
+sys.exit(app.exec_())
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841

@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 
 import sys
+<<<<<<< HEAD
 from PySide6.QtWidgets import QWidget, QPushButton, QApplication
 from PySide6 import QtCore
 # from PyQt5.QtCore import QTranslator, QLocale
+=======
+from PySide6.QtWidgets import QWidget, QApplication
+from PySide6 import QtCore
+# from PySide6.QtCore import QTranslator, QLocale
+>>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 from MessageBox import messagebox
 from MessageBoxConstants import YES_NO, SECONDBUTTON, RETURN_YES
 
