@@ -132,6 +132,14 @@
         "documentation": {}
     },
     {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
@@ -149,6 +157,14 @@
     },
     {
         "label": "ExifTags",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
         "importPath": "PIL",
         "description": "PIL",
         "isExtraImport": true,
@@ -2758,6 +2774,15 @@
         "documentation": {}
     },
     {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
         "label": "product",
         "importPath": "itertools",
         "description": "itertools",
@@ -2771,6 +2796,94 @@
         "description": "itertools",
         "isExtraImport": true,
         "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "Pool",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "pyxel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyxel",
+        "description": "pyxel",
+        "detail": "pyxel",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
         "documentation": {}
     },
     {
@@ -3342,6 +3455,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "*",
         "importPath": "datetime",
         "description": "datetime",
@@ -3458,6 +3587,24 @@
         "documentation": {}
     },
     {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "pyperclip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyperclip",
+        "description": "pyperclip",
+        "detail": "pyperclip",
+        "documentation": {}
+    },
+    {
         "label": "Protocol",
         "importPath": "typing",
         "description": "typing",
@@ -3567,6 +3714,38 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
         "documentation": {}
     },
     {
@@ -3973,44 +4152,11 @@
         "documentation": {}
     },
     {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
         "label": "urlopen",
         "importPath": "urllib.request",
         "description": "urllib.request",
         "isExtraImport": true,
         "detail": "urllib.request",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
         "documentation": {}
     },
     {
@@ -4062,15 +4208,6 @@
         "importPath": "socket",
         "description": "socket",
         "detail": "socket",
-        "documentation": {}
-    },
-    {
-        "label": "pyperclip",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pyperclip",
-        "description": "pyperclip",
-        "detail": "pyperclip",
         "documentation": {}
     },
     {
@@ -4183,15 +4320,6 @@
         "documentation": {}
     },
     {
-        "label": "multiprocessing",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "multiprocessing",
-        "description": "multiprocessing",
-        "detail": "multiprocessing",
-        "documentation": {}
-    },
-    {
         "label": "urljoin",
         "importPath": "urllib.parse",
         "description": "urllib.parse",
@@ -4200,21 +4328,21 @@
         "documentation": {}
     },
     {
-        "label": "secrets",
+        "label": "matplotlib.pyplot",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "secrets",
-        "description": "secrets",
-        "detail": "secrets",
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
         "documentation": {}
     },
     {
-        "label": "string",
+        "label": "matplotlib.patheffects",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "string",
-        "description": "string",
-        "detail": "string",
+        "importPath": "matplotlib.patheffects",
+        "description": "matplotlib.patheffects",
+        "detail": "matplotlib.patheffects",
         "documentation": {}
     },
     {
@@ -4224,15 +4352,6 @@
         "importPath": "pygame",
         "description": "pygame",
         "detail": "pygame",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
         "documentation": {}
     },
     {
@@ -4536,15 +4655,6 @@
         "description": "googletrans",
         "isExtraImport": true,
         "detail": "googletrans",
-        "documentation": {}
-    },
-    {
-        "label": "collections",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "collections",
-        "description": "collections",
-        "detail": "collections",
         "documentation": {}
     },
     {
@@ -6744,6 +6854,420 @@
         "documentation": {}
     },
     {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "3.1",
+        "description": "3.1",
+        "peekOfCode": "def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\ndef benchmark(limit):\n    count = 0\n    for i in range(limit):",
+        "detail": "3.1",
+        "documentation": {}
+    },
+    {
+        "label": "benchmark",
+        "kind": 2,
+        "importPath": "3.1",
+        "description": "3.1",
+        "peekOfCode": "def benchmark(limit):\n    count = 0\n    for i in range(limit):\n        if is_prime(i):\n            count += 1\n    return count\nif __name__ == \"__main__\":\n    start = time.perf_counter()\n    result = benchmark(10_000_000)\n    end = time.perf_counter()",
+        "detail": "3.1",
+        "documentation": {}
+    },
+    {
+        "label": "word_frequency",
+        "kind": 2,
+        "importPath": "3.10",
+        "description": "3.10",
+        "peekOfCode": "def word_frequency(text: str) -> dict:\n    freq = defaultdict(int)\n    words = re.findall(r'\\b\\w+\\b', text.lower())\n    for word in words:\n        freq[word] += 1\n    return freq\ndef run_analysis(repeats=1000):\n    with open(\"big_text.txt\", encoding=\"utf-8\") as f:\n        text = f.read()\n    for _ in range(repeats):",
+        "detail": "3.10",
+        "documentation": {}
+    },
+    {
+        "label": "run_analysis",
+        "kind": 2,
+        "importPath": "3.10",
+        "description": "3.10",
+        "peekOfCode": "def run_analysis(repeats=1000):\n    with open(\"big_text.txt\", encoding=\"utf-8\") as f:\n        text = f.read()\n    for _ in range(repeats):\n        word_frequency(text)\nif __name__ == \"__main__\":\n    start = time.time()\n    run_analysis()\n    end = time.time()\n    print(f\"Completed in {end - start:.2f} seconds\")",
+        "detail": "3.10",
+        "documentation": {}
+    },
+    {
+        "label": "invert_image_colors",
+        "kind": 2,
+        "importPath": "3.11",
+        "description": "3.11",
+        "peekOfCode": "def invert_image_colors(width, height):\n    img = Image.new(\"RGB\", (width, height), \"white\")\n    pixels = img.load()\n    for y in range(height):\n        for x in range(width):\n            r, g, b = pixels[x, y]\n            pixels[x, y] = (255 - r, 255 - g, 255 - b)\n    return img\nif __name__ == \"__main__\":\n    import time",
+        "detail": "3.11",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "3.2",
+        "description": "3.2",
+        "peekOfCode": "class Order:\n    def __init__(self, order_id, items):\n        self.order_id = order_id\n        self.items = items\n    def total(self):\n        return sum(price * quantity for _, price, quantity in self.items)\nclass OrderProcessor:\n    def __init__(self):\n        self.orders = []\n    def generate_orders(self, count):",
+        "detail": "3.2",
+        "documentation": {}
+    },
+    {
+        "label": "OrderProcessor",
+        "kind": 6,
+        "importPath": "3.2",
+        "description": "3.2",
+        "peekOfCode": "class OrderProcessor:\n    def __init__(self):\n        self.orders = []\n    def generate_orders(self, count):\n        for i in range(count):\n            num_items = random.randint(1, 10)\n            items = []\n            for _ in range(num_items):\n                price = random.uniform(5, 500)\n                quantity = random.randint(1, 5)",
+        "detail": "3.2",
+        "documentation": {}
+    },
+    {
+        "label": "benchmark",
+        "kind": 2,
+        "importPath": "3.2",
+        "description": "3.2",
+        "peekOfCode": "def benchmark(n_orders=1_000_000):\n    processor = OrderProcessor()\n    processor.generate_orders(n_orders)\n    return processor.calculate_totals()\nif __name__ == \"__main__\":\n    import time\n    start = time.perf_counter()\n    totals = benchmark()\n    print(f\"Processed {len(totals)} orders in {time.perf_counter() - start:.2f} sec\")",
+        "detail": "3.2",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "3.3",
+        "description": "3.3",
+        "peekOfCode": "start = time.perf_counter()\ntotal = 0\nfor i in range(1, 10000):\n    for j in range(1, 10000):\n        total += i + j\nend = time.perf_counter()\nprint(f\"Result: {end - start:.2f} sec\")",
+        "detail": "3.3",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "3.3",
+        "description": "3.3",
+        "peekOfCode": "total = 0\nfor i in range(1, 10000):\n    for j in range(1, 10000):\n        total += i + j\nend = time.perf_counter()\nprint(f\"Result: {end - start:.2f} sec\")",
+        "detail": "3.3",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "3.3",
+        "description": "3.3",
+        "peekOfCode": "end = time.perf_counter()\nprint(f\"Result: {end - start:.2f} sec\")",
+        "detail": "3.3",
+        "documentation": {}
+    },
+    {
+        "label": "parse_json",
+        "kind": 2,
+        "importPath": "3.4",
+        "description": "3.4",
+        "peekOfCode": "def parse_json():\n    pass\ndef benchmark(n: int):\n    for _ in range(n):\n        response = requests.get(URL)\n        _ = response.json()\nif __name__ == \"__main__\":\n    start = time.time()\n    benchmark(50)\n    end = time.time()",
+        "detail": "3.4",
+        "documentation": {}
+    },
+    {
+        "label": "benchmark",
+        "kind": 2,
+        "importPath": "3.4",
+        "description": "3.4",
+        "peekOfCode": "def benchmark(n: int):\n    for _ in range(n):\n        response = requests.get(URL)\n        _ = response.json()\nif __name__ == \"__main__\":\n    start = time.time()\n    benchmark(50)\n    end = time.time()\n    print(f\"Result: {end - start:.2f} sec\")",
+        "detail": "3.4",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "kind": 5,
+        "importPath": "3.4",
+        "description": "3.4",
+        "peekOfCode": "URL = \"https://jsonplaceholder.typicode.com/posts/1\"\ndef parse_json():\n    pass\ndef benchmark(n: int):\n    for _ in range(n):\n        response = requests.get(URL)\n        _ = response.json()\nif __name__ == \"__main__\":\n    start = time.time()\n    benchmark(50)",
+        "detail": "3.4",
+        "documentation": {}
+    },
+    {
+        "label": "cpu_task",
+        "kind": 2,
+        "importPath": "3.5",
+        "description": "3.5",
+        "peekOfCode": "def cpu_task(n):\n    result = 1\n    for i in range(1, n):\n        result *= i\n    return result\ndef worker(n, count):\n    for _ in range(count):\n        cpu_task(n)\ndef benchmark():\n    threads = []",
+        "detail": "3.5",
+        "documentation": {}
+    },
+    {
+        "label": "worker",
+        "kind": 2,
+        "importPath": "3.5",
+        "description": "3.5",
+        "peekOfCode": "def worker(n, count):\n    for _ in range(count):\n        cpu_task(n)\ndef benchmark():\n    threads = []\n    start = time.time()\n    for _ in range(5):\n        t = threading.Thread(target=worker, args=(1_000, 100_000))\n        t.start()\n        threads.append(t)",
+        "detail": "3.5",
+        "documentation": {}
+    },
+    {
+        "label": "benchmark",
+        "kind": 2,
+        "importPath": "3.5",
+        "description": "3.5",
+        "peekOfCode": "def benchmark():\n    threads = []\n    start = time.time()\n    for _ in range(5):\n        t = threading.Thread(target=worker, args=(1_000, 100_000))\n        t.start()\n        threads.append(t)\n    for t in threads:\n        t.join()\n    end = time.time()",
+        "detail": "3.5",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "3.6",
+        "description": "3.6",
+        "peekOfCode": "def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\ndef count_primes(limit):\n    return sum(1 for i in range(limit) if is_prime(i))\ndef benchmark():",
+        "detail": "3.6",
+        "documentation": {}
+    },
+    {
+        "label": "count_primes",
+        "kind": 2,
+        "importPath": "3.6",
+        "description": "3.6",
+        "peekOfCode": "def count_primes(limit):\n    return sum(1 for i in range(limit) if is_prime(i))\ndef benchmark():\n    limits = [2_000_000, 2_000_000, 2_000_000, 2_000_000]\n    start = time.time()\n    with Pool(processes=4) as pool:\n        results = pool.map(count_primes, limits)\n    end = time.time()\n    print(f\"Result: {end - start:.2f} sec\")\nif __name__ == \"__main__\":",
+        "detail": "3.6",
+        "documentation": {}
+    },
+    {
+        "label": "benchmark",
+        "kind": 2,
+        "importPath": "3.6",
+        "description": "3.6",
+        "peekOfCode": "def benchmark():\n    limits = [2_000_000, 2_000_000, 2_000_000, 2_000_000]\n    start = time.time()\n    with Pool(processes=4) as pool:\n        results = pool.map(count_primes, limits)\n    end = time.time()\n    print(f\"Result: {end - start:.2f} sec\")\nif __name__ == \"__main__\":\n    benchmark()",
+        "detail": "3.6",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "class Player:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n        self.dx = 0\n        self.dy = 0\n        self.direction = 1\n        self.is_falling = False\n    def update(self):\n        global scroll_x",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy1",
+        "kind": 6,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "class Enemy1:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n        self.dx = 0\n        self.dy = 0\n        self.direction = -1\n        self.is_alive = True\n    def update(self):\n        self.dx = self.direction",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy2",
+        "kind": 6,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "class Enemy2:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n        self.dx = 0\n        self.dy = 0\n        self.direction = 1\n        self.is_alive = True\n    def update(self):\n        self.dx = self.direction",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy3",
+        "kind": 6,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "class Enemy3:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n        self.time_to_fire = 0\n        self.is_alive = True\n    def update(self):\n        self.time_to_fire -= 1\n        if self.time_to_fire <= 0:\n            dx = player.x - self.x",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "Enemy3Bullet",
+        "kind": 6,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "class Enemy3Bullet:\n    def __init__(self, x, y, dx, dy):\n        self.x = x\n        self.y = y\n        self.dx = dx\n        self.dy = dy\n        self.is_alive = True\n    def update(self):\n        self.x += self.dx\n        self.y += self.dy",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "kind": 6,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "class App:\n    def __init__(self):\n        pyxel.init(128, 128, title=\"Pyxel Platformer\")\n        pyxel.load(\"assets/platformer.pyxres\")\n        # Change enemy spawn tiles invisible\n        pyxel.image(0).rect(0, 8, 24, 8, TRANSPARENT_COLOR)\n        global player\n        player = Player(0, 0)\n        spawn_enemy(0, 127)\n        pyxel.playm(0, loop=True)",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "get_tile",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8\n    x2 = (x + 8 - 1) // 8\n    y2 = (y + 8 - 1) // 8\n    for yi in range(y1, y2 + 1):\n        for xi in range(x1, x2 + 1):\n            if get_tile(xi, yi)[0] >= WALL_TILE_X:",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "detect_collision",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8\n    x2 = (x + 8 - 1) // 8\n    y2 = (y + 8 - 1) // 8\n    for yi in range(y1, y2 + 1):\n        for xi in range(x1, x2 + 1):\n            if get_tile(xi, yi)[0] >= WALL_TILE_X:\n                return True\n    if dy > 0 and y % 8 == 1:",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "push_back",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def push_back(x, y, dx, dy):\n    abs_dx = abs(dx)\n    abs_dy = abs(dy)\n    if abs_dx > abs_dy:\n        sign = 1 if dx > 0 else -1\n        for _ in range(abs_dx):\n            if detect_collision(x + sign, y, dy):\n                break\n            x += sign\n        sign = 1 if dy > 0 else -1",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "is_wall",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def is_wall(x, y):\n    tile = get_tile(x // 8, y // 8)\n    return tile == TILE_FLOOR or tile[0] >= WALL_TILE_X\ndef spawn_enemy(left_x, right_x):\n    left_x = pyxel.ceil(left_x / 8)\n    right_x = pyxel.floor(right_x / 8)\n    for x in range(left_x, right_x + 1):\n        for y in range(16):\n            tile = get_tile(x, y)\n            if tile == TILE_SPAWN1:",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "spawn_enemy",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def spawn_enemy(left_x, right_x):\n    left_x = pyxel.ceil(left_x / 8)\n    right_x = pyxel.floor(right_x / 8)\n    for x in range(left_x, right_x + 1):\n        for y in range(16):\n            tile = get_tile(x, y)\n            if tile == TILE_SPAWN1:\n                enemies.append(Enemy1(x * 8, y * 8))\n            elif tile == TILE_SPAWN2:\n                enemies.append(Enemy2(x * 8, y * 8))",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "cleanup_list",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def cleanup_list(list):\n    i = 0\n    while i < len(list):\n        elem = list[i]\n        if elem.is_alive:\n            i += 1\n        else:\n            list.pop(i)\nclass Player:\n    def __init__(self, x, y):",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "game_over",
+        "kind": 2,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "def game_over():\n    global scroll_x, enemies\n    \"\"\"scroll_x = 0\n    player.x = 0\n    player.y = 0\n    player.dx = 0\n    player.dy = 0\n    enemies = []\n    spawn_enemy(0, 127)\n    pyxel.play(3, 9)\"\"\"",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "TRANSPARENT_COLOR",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "TRANSPARENT_COLOR = 2\nSCROLL_BORDER_X = 80\nTILE_FLOOR = (1, 0)\nTILE_SPAWN1 = (0, 1)\nTILE_SPAWN2 = (1, 1)\nTILE_SPAWN3 = (2, 1)\nWALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "SCROLL_BORDER_X",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "SCROLL_BORDER_X = 80\nTILE_FLOOR = (1, 0)\nTILE_SPAWN1 = (0, 1)\nTILE_SPAWN2 = (1, 1)\nTILE_SPAWN3 = (2, 1)\nWALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "TILE_FLOOR",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "TILE_FLOOR = (1, 0)\nTILE_SPAWN1 = (0, 1)\nTILE_SPAWN2 = (1, 1)\nTILE_SPAWN3 = (2, 1)\nWALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "TILE_SPAWN1",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "TILE_SPAWN1 = (0, 1)\nTILE_SPAWN2 = (1, 1)\nTILE_SPAWN3 = (2, 1)\nWALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "TILE_SPAWN2",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "TILE_SPAWN2 = (1, 1)\nTILE_SPAWN3 = (2, 1)\nWALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "TILE_SPAWN3",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "TILE_SPAWN3 = (2, 1)\nWALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "WALL_TILE_X",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "WALL_TILE_X = 4\nscroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8\n    x2 = (x + 8 - 1) // 8",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "scroll_x",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "scroll_x = 0\nplayer = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8\n    x2 = (x + 8 - 1) // 8\n    y2 = (y + 8 - 1) // 8",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "player = None\nenemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8\n    x2 = (x + 8 - 1) // 8\n    y2 = (y + 8 - 1) // 8\n    for yi in range(y1, y2 + 1):",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "enemies",
+        "kind": 5,
+        "importPath": "3.7",
+        "description": "3.7",
+        "peekOfCode": "enemies = []\ndef get_tile(tile_x, tile_y):\n    return pyxel.tilemap(0).pget(tile_x, tile_y)\ndef detect_collision(x, y, dy):\n    x1 = x // 8\n    y1 = y // 8\n    x2 = (x + 8 - 1) // 8\n    y2 = (y + 8 - 1) // 8\n    for yi in range(y1, y2 + 1):\n        for xi in range(x1, x2 + 1):",
+        "detail": "3.7",
+        "documentation": {}
+    },
+    {
+        "label": "brute_md5",
+        "kind": 2,
+        "importPath": "3.8",
+        "description": "3.8",
+        "peekOfCode": "def brute_md5(target_hash: str, max_length: int = 8):\n    chars = string.ascii_lowercase + string.digits\n    for length in range(1, max_length + 1):\n        for combo in itertools.product(chars, repeat=length):\n            attempt = ''.join(combo)\n            # print(attempt)\n            if hashlib.md5(attempt.encode()).hexdigest() == target_hash:\n                return attempt\n    return None\nif __name__ == \"__main__\":",
+        "detail": "3.8",
+        "documentation": {}
+    },
+    {
+        "label": "brute_md5",
+        "kind": 2,
+        "importPath": "3.9",
+        "description": "3.9",
+        "peekOfCode": "def brute_md5(target_hash, max_length):\n    def backtrack(current):\n        if len(current) > max_length:\n            return None\n        guess = ''.join(current)\n        # print(guess)\n        if hashlib.md5(guess.encode()).hexdigest() == target_hash:\n            return guess\n        for ch in CHARS:\n            result = backtrack(current + [ch])",
+        "detail": "3.9",
+        "documentation": {}
+    },
+    {
+        "label": "CHARS",
+        "kind": 5,
+        "importPath": "3.9",
+        "description": "3.9",
+        "peekOfCode": "CHARS = string.ascii_lowercase + string.digits\ndef brute_md5(target_hash, max_length):\n    def backtrack(current):\n        if len(current) > max_length:\n            return None\n        guess = ''.join(current)\n        # print(guess)\n        if hashlib.md5(guess.encode()).hexdigest() == target_hash:\n            return guess\n        for ch in CHARS:",
+        "detail": "3.9",
+        "documentation": {}
+    },
+    {
         "label": "add_transaction",
         "kind": 2,
         "importPath": "Accounting.Accounting",
@@ -7914,6 +8438,24 @@
         "documentation": {}
     },
     {
+        "label": "clean_old_files",
+        "kind": 2,
+        "importPath": "Protocol.clean_old_files",
+        "description": "Protocol.clean_old_files",
+        "peekOfCode": "def clean_old_files(folder_path: str, days: int = 7):\n    \"\"\"\n    Удаляет файлы старше указанного количества дней из папки.\n    :param folder_path: путь к папке\n    :param days: количество дней, старше которых файлы будут удалены\n    \"\"\"\n    # Время \"среза\"\n    cutoff_time = time.time() - days * 86400\n    # Проходим по всем файлам в папке\n    for filename in os.listdir(folder_path):",
+        "detail": "Protocol.clean_old_files",
+        "documentation": {}
+    },
+    {
+        "label": "AMBIG",
+        "kind": 5,
+        "importPath": "Protocol.hard_password_generator",
+        "description": "Protocol.hard_password_generator",
+        "peekOfCode": "AMBIG = set('O0Il1') # Определяем набор символов, которые могут выглядеть похожими (амбивалентные символы).\nif __name__ == \"__main__\":\n    ap = argparse.ArgumentParser()\n    ap.add_argument('-l', '--length', type=int, default=16,  # Указание длины пароля.\n                    help='длина пароля (по умолчанию: 16)')\n    ap.add_argument('-d', '--digits', action='store_true',  # Включать ли цифр в пароль.\n                    help='включить цифры в пароль')\n    ap.add_argument('-s', '--symbols', action='store_true',  # Включать ЛИ символов в пароль.\n                    help='включить специальные символы в пароль')\n    ap.add_argument('--no-ambig', action='store_true',",
+        "detail": "Protocol.hard_password_generator",
+        "documentation": {}
+    },
+    {
         "label": "Quackable",
         "kind": 6,
         "importPath": "Protocol.ProtocolExample",
@@ -7983,6 +8525,15 @@
         "description": "Protocol.ProtocolExample",
         "peekOfCode": "decoy = Decoy()\naction(duck)\naction(rubber_duck)\naction(decoy)\n# action(\"asdf\")",
         "detail": "Protocol.ProtocolExample",
+        "documentation": {}
+    },
+    {
+        "label": "strip_html_tags",
+        "kind": 2,
+        "importPath": "Protocol.strip_html_tags",
+        "description": "Protocol.strip_html_tags",
+        "peekOfCode": "def strip_html_tags(html_content: str) -> str:\n    \"\"\"\n    Удаляет все HTML-теги из строки и возвращает чистый текст.\n    Args:\n        html_content (str): Строка, содержащая HTML-разметку.\n    Returns:\n        str: Текст без HTML-тегов.\n    \"\"\"\n    if not html_content:\n        return \"\"",
+        "detail": "Protocol.strip_html_tags",
         "documentation": {}
     },
     {
@@ -9999,6 +10550,51 @@
         "description": "players",
         "peekOfCode": "class Player:\n    \"\"\"\n    \"\"\"\n    def __init__(self, name, age, height, weight):\n        self.name = name\n        self.age = age\n        self.height = height\n        self.weight = weight\n    def get_age(self) -> str:\n        \"\"\"",
         "detail": "players",
+        "documentation": {}
+    },
+    {
+        "label": "draw_beautiful_calendar",
+        "kind": 2,
+        "importPath": "png-calendar-background",
+        "description": "png-calendar-background",
+        "peekOfCode": "def draw_beautiful_calendar(year, month, background_image_path=None):\n    cal = calendar.monthcalendar(year, month)\n    fig, ax = plt.subplots(figsize=(12, 10), dpi=300)\n    title = ax.set_title(f\"{calendar.month_name[month]} {year}\", fontsize=38, pad=20, color='black')\n    # Добавляем белую обводку к тексту\n    title.set_path_effects([\n        path_effects.Stroke(linewidth=3, foreground='white'),  # Толщина и цвет обводки\n        path_effects.Normal()\n    ])\n    # Добавляем фоновое изображение, если путь указан",
+        "detail": "png-calendar-background",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "png-calendar-background",
+        "description": "png-calendar-background",
+        "peekOfCode": "y = int(input(\"Введите год: \"))\nm = int(input(\"Введите номер месяца (1-12): \"))\nbg_path = input(\"Введите путь к фоновому изображению (или нажмите Enter, чтобы пропустить): \")\nif bg_path:\n    draw_beautiful_calendar(y, m, background_image_path=bg_path)\nelse:\n    draw_beautiful_calendar(y, m)",
+        "detail": "png-calendar-background",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "png-calendar-background",
+        "description": "png-calendar-background",
+        "peekOfCode": "m = int(input(\"Введите номер месяца (1-12): \"))\nbg_path = input(\"Введите путь к фоновому изображению (или нажмите Enter, чтобы пропустить): \")\nif bg_path:\n    draw_beautiful_calendar(y, m, background_image_path=bg_path)\nelse:\n    draw_beautiful_calendar(y, m)",
+        "detail": "png-calendar-background",
+        "documentation": {}
+    },
+    {
+        "label": "bg_path",
+        "kind": 5,
+        "importPath": "png-calendar-background",
+        "description": "png-calendar-background",
+        "peekOfCode": "bg_path = input(\"Введите путь к фоновому изображению (или нажмите Enter, чтобы пропустить): \")\nif bg_path:\n    draw_beautiful_calendar(y, m, background_image_path=bg_path)\nelse:\n    draw_beautiful_calendar(y, m)",
+        "detail": "png-calendar-background",
+        "documentation": {}
+    },
+    {
+        "label": "draw_beautiful_calendar",
+        "kind": 2,
+        "importPath": "png-calendar",
+        "description": "png-calendar",
+        "peekOfCode": "def draw_beautiful_calendar(year, month):\n    cal = calendar.monthcalendar(year, month)\n    # Увеличиваем размер фигуры\n    fig, ax = plt.subplots(figsize=(10, 8))\n    # Заголовок\n    ax.set_title(f\"{calendar.month_name[month]} {year}\", fontsize=20, pad=20)\n    # Заголовки дней недели\n    weekdays = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']\n    # Создаём таблицу\n    table = ax.table(cellText=cal,",
+        "detail": "png-calendar",
         "documentation": {}
     },
     {
