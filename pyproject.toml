@@ -54,3 +54,8 @@ tqdm = "^4.67.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pyscaffold>=4.6",
+]
