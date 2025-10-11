@@ -1,23 +1,51 @@
-from  typing import Protocol
+from typing import Protocol
+
 
 class Quackable(Protocol):
-    def quack(self) -> str: ...
+    """ Квакабельный """
 
-class WildDuck():
     def quack(self) -> str:
+        """ Квакнуть """
+        ...
+
+
+class WildDuck:
+    """ Дикая утка """
+    def quack(self) -> str:
+        """
+        Квакание дикой утки
+        :return:
+        """
         return "quack"
 
-class Decoy():
+
+class Decoy:
+    """ Имитатор утки (манок)"""
     def quack(self) -> str:
+        """
+        Квакание имитатора утки
+        :return:
+        """
         return "*False* quack"
 
-class RubberDuck():
+
+class RubberDuck:
+    """ Резиновая утка """
     def quack(self) -> str:
+        """
+        Квакние резиновой утки
+        :return:
+        """
         return "squeak"
 
 
-def action (value: Quackable) -> None:
+def action(value: Quackable) -> None:
+    """
+    Действие - квакать
+    :param value:
+    """
     print(value.quack())
+
 
 duck = WildDuck()
 rubber_duck = RubberDuck()
