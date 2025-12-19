@@ -1,7 +1,54 @@
 import tkinter as tk
 from datetime import datetime
 
+BACK1 = "#0a2e36" # цвет окна
+BACK2 = "#1a4a5a" # цвет фона под цифрами
+DIGITS = "#4afc9f" # цвет цифр
+
+font_large = ("Courier", 48, "bold")
+font_small = ("Arial", 14)
+
+headers = ["ДНЕЙ", "ЧАСОВ", "МИНУТ", "СЕКУНД"]
+
+class DigitLabel(tk.Label):
+    """Виджет для отображения цифр"""
+    def __init__(self):
+        tk.Label.__init__(self, frame, text="00", bg=BACK2, fg=DIGITS, font=font_large, width=3)
+
+
+class HeaderLabel(tk.Label):
+    """Виджет для отображения заголовков над цифрами"""
+    def __init__(self, header_text):
+        tk.Label.__init__(self, frame, text=header_text, font=font_small, bg=BACK1, fg="white")
+
+
 def update_countdown():
+    """
+    Обновляет отсчёт времени до Нового года каждую секунду.
+
+    Функция вычисляет разницу между текущим моментом и ближайшим Новым годом
+    (следующим или текущим, если он ещё не наступил), затем извлекает количество
+    дней, часов, минут и секунд из этой разницы и обновляет соответствующие
+    виджеты интерфейса. После обновления планирует свой повторный вызов
+    через 1000 миллисекунд (1 секунду).
+
+    Использует глобальные объекты:
+        - datetime: для работы с датой и временем.
+        - now: текущая дата и время.
+        - new_year: дата и время ближайшего Нового года.
+        - label_days, label_hours, label_minutes, label_seconds: виджеты Label,
+          отображающие соответствующие части отсчёта.
+        - root: главное окно Tkinter, используемое для метода after().
+
+    Методы:
+        root.after(1000, update_countdown) — запускает функцию повторно
+        через 1000 мс, обеспечивая непрерывное обновление.
+
+    Примечание:
+        Функция предполагает, что переменные root, label_days, label_hours,
+        label_minutes, label_seconds определены в глобальной области видимости
+        и являются корректными виджетами Tkinter.
+    """
     now = datetime.now()
     new_year = datetime(now.year + 1, 1, 1, 0, 0, 0)
 
@@ -20,25 +67,21 @@ def update_countdown():
     label_seconds.config(text=f"{seconds:02d}")
     root.after(1000, update_countdown)
 
+
 root = tk.Tk()
 root.title("🎄 До Нового Года осталось:")
-root.configure(bg='#0a2e36')
+root.configure(bg=BACK1)
 
-font_large = ("Courier", 48, "bold")
-font_small = ("Arial", 14)
-
-frame = tk.Frame(root, bg='#0a2e36')
+frame = tk.Frame(root, bg=BACK1)
 frame.pack(expand=True)
 
-tk.Label(frame, text="ДНЕЙ", font=font_small, bg='#0a2e36', fg='white').grid(row=0, column=0, padx=10)
-tk.Label(frame, text="ЧАСОВ", font=font_small, bg='#0a2e36', fg='white').grid(row=0, column=1, padx=10)
-tk.Label(frame, text="МИНУТ", font=font_small, bg='#0a2e36', fg='white').grid(row=0, column=2, padx=10)
-tk.Label(frame, text="СЕКУНД", font=font_small, bg='#0a2e36', fg='white').grid(row=0, column=3, padx=10)
+for header in headers:
+    HeaderLabel(header).grid(row=0, column=headers.index(header), pady=10)
 
-label_days = tk.Label(frame, text="00", font=font_large, bg='#1a4a5a', fg='#4afc9f', width=3)
-label_hours = tk.Label(frame, text="00", font=font_large, bg='#1a4a5a', fg='#4afc9f', width=3)
-label_minutes = tk.Label(frame, text="00", font=font_large, bg='#1a4a5a', fg='#4afc9f', width=3)
-label_seconds = tk.Label(frame, text="00", font=font_large, bg='#1a4a5a', fg='#4afc9f', width=3)
+label_days = DigitLabel()
+label_hours = DigitLabel()
+label_minutes = DigitLabel()
+label_seconds = DigitLabel()
 
 label_days.grid(row=1, column=0, padx=10, pady=10)
 label_hours.grid(row=1, column=1, padx=10, pady=10)
