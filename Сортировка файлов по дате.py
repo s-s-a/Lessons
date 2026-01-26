@@ -1,5 +1,5 @@
 from pathlib import Path
-import shutil
+# import shutil
 from datetime import datetime
 
 
@@ -21,7 +21,8 @@ def sort_photos_by_date(photo_folder):
             target_folder.mkdir(exist_ok=True)
 
             # Перемещаем файл в соответствующую папку
-            shutil.move(str(file_path), str(target_folder / file_path.name))
+            # shutil.move(str(file_path), str(target_folder / file_path.name))
+            file_path.move(str(target_folder / file_path.name))
             # Выводим сообщение о перемещении файла
             print(f"Изображение {file_path.name} перенесено в {target_folder}")
 
