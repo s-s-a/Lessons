@@ -26,7 +26,7 @@ pyodbc.pooling(enabled=False)
 
 
 conn = pyodbc.connect(DB_CONNECTION_STRING)
-# conn.setdecoding(pyodbc.SQL_CHAR,encoding='utf-8')
+conn.setdecoding(pyodbc.SQL_CHAR,encoding='utf-8')
 
 
 cursor = conn.cursor()
