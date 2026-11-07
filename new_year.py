@@ -5,7 +5,7 @@ BACK1 = "#0a2e36" # цвет окна
 BACK2 = "#1a4a5a" # цвет фона под цифрами
 DIGITS = "#4afc9f" # цвет цифр
 
-font_large = ("Courier", 48, "bold")
+font_large = ("JetBrains Mono", 48, "bold")
 font_small = ("Arial", 14)
 
 headers = ["ДНЕЙ", "ЧАСОВ", "МИНУТ", "СЕКУНД"]
