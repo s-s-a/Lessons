@@ -9,11 +9,7 @@ import ffmpeg
 from PIL import Image, ExifTags
 
 NIKON_TRANSFER_PATH = r"c:\Users\sssss\Images\Nikon Transfer 2"
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
 
 def image_metadata(path_f):
     """
@@ -70,22 +66,17 @@ if __name__ == "__main__":
     # path_file = input('[~] Введите путь к файлу: ').lower()
     files = [NIKON_TRANSFER_PATH+"\\"+x.lower() for x in os.listdir(NIKON_TRANSFER_PATH) if x.lower().endswith(".jpg")]
     for path_file in files:
-<<<<<<< HEAD
         if not os.path.exists(path_file):
             print('[-] Файла не существует')
-=======
-    if not os.path.exists(path_file):
-        print('[-] Файла не существует')
-    else:
-        if path_file.endswith(".jpg"):
-            image_metadata(path_file)
-        elif path_file.endswith(".jpeg"):
-            image_metadata(path_file)
->>>>>>> 5c39f649394f144af54e86d1663d6d480dab1841
         else:
             if path_file.endswith(".jpg"):
                 image_metadata(path_file)
             elif path_file.endswith(".jpeg"):
                 image_metadata(path_file)
             else:
-                vid_aud_matadata(path_file)
+                if path_file.endswith(".jpg"):
+                    image_metadata(path_file)
+                elif path_file.endswith(".jpeg"):
+                    image_metadata(path_file)
+                else:
+                    vid_aud_matadata(path_file)

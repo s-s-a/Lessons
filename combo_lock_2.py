@@ -1,5 +1,5 @@
-import tkinter as tk
 import math
+import tkinter as tk
 
 
 class CombinationLock:

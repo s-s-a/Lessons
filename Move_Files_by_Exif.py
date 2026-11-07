@@ -5,14 +5,16 @@ import shutil
 
 import pycountry
 import reverse_geocoder as rg
+
 from exif import Image
 
 # https://habr.com/ru/company/skillfactory/blog/551002/
 
 SOURCE_TRANSFER_PATH = r"c:\Users\sssss\Images\Nikon Transfer 2"
 
+Coordinates = Type(tuple[float|int, float|int, float|int])
 
-def format_dms_coordinates(coordinates) -> str:
+def format_dms_coordinates(coordinates:Coordinates) -> str:
     """
     Форматирование координат в градусах, минутах и секундах
     :param coordinates:
@@ -21,9 +23,9 @@ def format_dms_coordinates(coordinates) -> str:
     return f"{coordinates[0]}° {coordinates[1]}' {coordinates[2]}\""
 
 
-def dms_coordinates_to_dd_coordinates(coordinates, coordinates_ref) -> str:
+def dms_coordinates_to_dd_coordinates(coordinates:Coordinates, coordinates_ref:str|None) -> str:
     """
-    Преобразование координат в градусах, минутах и секундах в градусах десятичных
+    Преобразование координат в градусах, минутах и секундах в градусы десятичные
     :param coordinates:
     :param coordinates_ref:
     :return:
@@ -36,7 +38,7 @@ def dms_coordinates_to_dd_coordinates(coordinates, coordinates_ref) -> str:
     return decimal_degrees
 
 
-def degrees_to_direction(degrees) -> str:
+def degrees_to_direction(degrees:float|int) -> str:
     """
     Форматирование направления
     :param degrees:
@@ -68,7 +70,7 @@ def degrees_to_direction(degrees) -> str:
     ]
 
 
-def format_direction_ref(direction_ref) -> str:
+def format_direction_ref(direction_ref:str|None) -> str:
     """
     Форматирование указания на полюс
     :param direction_ref:
@@ -82,7 +84,7 @@ def format_direction_ref(direction_ref) -> str:
     return direction_ref_text
 
 
-def format_altitude(altitude, altitude_ref) -> str:
+def format_altitude(altitude: int, altitude_ref: int|None) -> str:
     """
     Форматирование высоты
     :param altitude:
@@ -97,7 +99,7 @@ def format_altitude(altitude, altitude_ref) -> str:
     return f"{altitude} meters {altitude_ref_text}"
 
 
-def format_speed_ref(speed_ref) -> str:
+def format_speed_ref(speed_ref: str|None) -> str:
     """
     Форматирование скорости
     :param speed_ref:
@@ -280,8 +282,8 @@ def main():
         if not os.path.exists(destination_folder):
             os.makedirs(destination_folder)
 
-        # Перенесите файл
-        print(f"Copying file: {file} to: {destination_folder}")
+        # Перенос файла
+        print(f"Moving file: {file} to: {destination_folder}")
         # shutil.copy2(file, destination_folder) # копирование с сохранением атрибутов
         shutil.move(file, destination_folder)
 
